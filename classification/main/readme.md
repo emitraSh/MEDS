@@ -46,8 +46,21 @@ Logistic regression is a method used to predict yes/no answers (also called bina
 - It uses sigmoid function for its classification.
 - it calculates the numbers between 0 and 1, the closer to 1, the probability of success is higher.
 - it has a threshold at 0.5.
+- Forward pass = the equation that sigmoid function is applied to -> x.w + b
 - It uses optimization algorithms to train the model such as:
   - Steepest Decent
   - Newton's Method
   - Iterative reweighed least square
+- parameters: 
+  - learning rate (float)
+  - number of iteration 
 
+# Why Use Standardization in Machine Learning?
+- Mean Centering -> it helps with capturing <u>relative variation</u> in data
+- Scale Invariance -> it avoids influence of large scale features by dividing each feature by its standard deviation
+- Improves convergence in <u>gradiant based algorithms </u>
+- comparability
+- Regularization
+
+- - - - - How to Standardize? 
+calculate the mean and standard deviation of each feature and apply (x-mean)/sd to each x.
