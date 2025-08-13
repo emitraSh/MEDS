@@ -6,9 +6,11 @@ import plotly.express as px
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn.model_selection import train_test_split
+from sklearn.tree import DecisionTreeClassifier
+
 from logesticRegression import LogisticRegression
 import pickle
-
+from decisionTree import DecisionTree
 
 df = pd.read_csv('breast-cancer.csv')
 
@@ -54,19 +56,31 @@ def standardization(X):
 X_train_stndrd = standardization(X_train)
 X_test_stndrd = standardization(X_test)
 
-lg = LogisticRegression()
-#lg.fit(X_train_stndrd, y_train, 100000)
 
-#lg.save_model("logistic_model.pkl")
-#pklfile = pd.read_pickle("logistic_model.pkl")
-#print(pklfile)
+"""lg = LogisticRegression()
+lg.fit(X_train_stndrd, y_train, 100000)
 
-with open("model.pkl", "rb") as f:
+lg.save_model("logistic_model.pkl")
+pklfile = pd.read_pickle("logistic_model.pkl")
+print(pklfile)
+
+with open("logistic_model.pkl", "rb") as f:
     my_data = pickle.load(f)
 
 print(type(my_data))
 
 
-lg.predict(X_test_stndrd, my_data['W'], my_data['b'])
+lg.predict(X_test_stndrd, my_data['W'], my_data['b'])"""
+
+dT = DecisionTree()
+print(y_train)
+dataset = np.column_stack((X_train_stndrd, y_train))
+decision_tree = dT.build_branches(dataset)
+
+dT.print_tree(decision_tree)
+print(dT.predict(X_test_stndrd,decision_tree))
+
+
+
 
 

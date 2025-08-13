@@ -123,6 +123,39 @@ class DecisionTree:
             entropy += -p_y * np.log(p_y)
         return entropy
 
+    def print_tree(self,tree = None, indent=''):
+        if not tree:
+            tree = self.root
+        if tree.pureLeaf_class is not None:
+            return print(tree.pureLeaf_class)
+        else:
+            print(f"{indent}Feature[{tree.feature}] <= {tree.threshold} | Info Gain={tree.info_gain:.4f}")
+
+            # Go left
+            print(f"{indent}--> True:")
+            self.print_tree(tree.leftSub, indent + indent)
+
+            # Go right
+            print(f"{indent}--> False:")
+            self.print_tree(tree.rightSub, indent + indent)
+
+
+
+    def predict(self,x_test,tree):
+        predictions = [self.make_prediction(x,tree) for x in x_test]
+        return predictions
+
+    def make_prediction(self,x_test_array ,tree):
+        if tree.pureLeaf_class != None: return tree.pureLeaf_class
+        feature_val = x_test_array[tree.feature_index]
+        if feature_val <= tree.threshold:
+            return self.make_prediction(x_test_array, tree.left)
+        else:
+            return self.make_prediction(x_test_array, tree.right)
+
+
+
+
 
 
 
