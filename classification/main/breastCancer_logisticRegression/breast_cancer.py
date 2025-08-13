@@ -56,21 +56,28 @@ def standardization(X):
 X_train_stndrd = standardization(X_train)
 X_test_stndrd = standardization(X_test)
 
+def logisticRegEvaluation(vec,threshold=0.5):
+    x=[0]*len(vec)
+    for i in vec:
+        if i>threshold:
+            x[i]=1
+        else:
+            x[i]=0
 
-"""lg = LogisticRegression()
-lg.fit(X_train_stndrd, y_train, 100000)
+lg = LogisticRegression()
+lg.fit(X_train_stndrd, y_train, 10001)
 
 lg.save_model("logistic_model.pkl")
-pklfile = pd.read_pickle("logistic_model.pkl")
+pklfile = pd.read_pickle("model.pkl")
 print(pklfile)
 
-with open("logistic_model.pkl", "rb") as f:
+with open("model.pkl", "rb") as f:
     my_data = pickle.load(f)
 
 print(type(my_data))
 
 
-lg.predict(X_test_stndrd, my_data['W'], my_data['b'])"""
+lg.predict(X_test_stndrd, my_data['W'], my_data['b'])
 
 dT = DecisionTree()
 print(y_train)
@@ -79,6 +86,7 @@ decision_tree = dT.build_branches(dataset)
 
 dT.print_tree(decision_tree)
 print(dT.predict(X_test_stndrd,decision_tree))
+#print(sum([abs(y_test[i]-dT.predict(X_test_stndrd,decision_tree)) for i in range(len(X_test_stndrd))])/len(X_test_stndrd))
 
 
 
