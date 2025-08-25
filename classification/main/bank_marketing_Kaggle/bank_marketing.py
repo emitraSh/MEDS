@@ -64,32 +64,38 @@ Questions:
 '''
 
 #____________________________________________ setting data types __________________________________________
-model_train_df['job']= model_train_df['job'].map({
-                                                'unknown': np.nan,
-                                                'unemployed': 1,
-                                                'student': 2,
-                                                'housemaid':3,
-                                                'services':8,
-                                                'blue-collar': 9,
-                                                'technician': 10,
-                                                'retired': 7,
-                                                'admin.':8,
-                                                'management': 13,
-                                                'entrepreneur': 20})
+def set_data_type(df):
+    df['job']= df['job'].map({
+                                                    'unknown': np.nan,
+                                                    'unemployed': 1,
+                                                    'student': 2,
+                                                    'housemaid':3,
+                                                    'services':8,
+                                                    'blue-collar': 9,
+                                                    'technician': 10,
+                                                    'retired': 7,
+                                                    'admin.':8,
+                                                    'management': 13,
+                                                    'entrepreneur': 20})
 
-model_train_df['job']= model_train_df['job'].astype(float)
-model_train_df['marital'] = model_train_df['marital'].map({'married': 0,'single':1,'divorced':2})
-model_train_df['education'] = model_train_df['education'].map({'unknown':np.nan, 'primary':1, 'secondary':2, 'tertiary':3})
-model_train_df['education']= model_train_df['education'].astype(float)
-model_train_df['contact'] = model_train_df['contact'].map({'unknown':0,'cellular':1, 'telephone':2})
-model_train_df['poutcome'] = model_train_df['poutcome'].map({'unknown':0,'failure': 1,'other':2,'success':3})
-model_train_df['poutcome']= model_train_df['poutcome'].astype(float)
-model_train_df['default'] = model_train_df['default'].map({'yes':1,'no':0,0:0, 1:1}) #has credit in default
-model_train_df['housing'] = model_train_df['housing'].map({'yes':1,'no':0,0:0, 1:1})
-model_train_df['loan'] = model_train_df['loan'].map({'yes':1,'no':0,0:0, 1:1})
-model_train_df['y'] = model_train_df['y'].map({'yes':1,'no':0, 0:0, 1:1})
-model_train_df['y'] = model_train_df['y'].astype(int)
+    df['job']= df['job'].astype(float)
+    df['marital'] = df['marital'].map({'married': 0,'single':1,'divorced':2})
+    df['education'] = df['education'].map({'unknown':np.nan, 'primary':1, 'secondary':2, 'tertiary':3})
+    df['education']= df['education'].astype(float)
+    df['contact'] = df['contact'].map({'unknown':0,'cellular':1, 'telephone':2})
+    df['poutcome'] = df['poutcome'].map({'unknown':0,'failure': 1,'other':2,'success':3})
+    df['poutcome']= df['poutcome'].astype(float)
+    df['default'] = df['default'].map({'yes':1,'no':0,0:0, 1:1}) #has credit in default
+    df['housing'] = df['housing'].map({'yes':1,'no':0,0:0, 1:1})
+    df['loan'] = df['loan'].map({'yes':1,'no':0,0:0, 1:1})
+    if df['y']:
+        df['y'] = df['y'].map({'yes':1,'no':0, 0:0, 1:1})
+        df['y'] = df['y'].astype(int)
 
+    return df
+
+model_train_df = set_data_type(model_train_df)
+model_test_df = set_data_type(competition_test)
 
 
 X = model_train_df.drop(columns=["y"])
