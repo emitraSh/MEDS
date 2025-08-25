@@ -1,6 +1,7 @@
 import numpy as np
 import pandas as pd
 import pickle
+import joblib
 
 #Visualization
 import matplotlib.pyplot as plt
@@ -12,6 +13,7 @@ import optuna
 import sklearn.ensemble
 import sklearn.svm #support vector machines:
 from sklearn.metrics import roc_auc_score, make_scorer
+from sklearn.impute import KNNImputer
 
 
 model_train_1_df = pd.read_csv('train.csv')
@@ -63,7 +65,7 @@ Questions:
 
 #____________________________________________ setting data types __________________________________________
 model_train_df['job']= model_train_df['job'].map({
-                                                'unknown': -1,
+                                                'unknown': np.nan,
                                                 'unemployed': 1,
                                                 'student': 2,
                                                 'housemaid':3,
@@ -77,10 +79,10 @@ model_train_df['job']= model_train_df['job'].map({
 
 model_train_df['job']= model_train_df['job'].astype(float)
 model_train_df['marital'] = model_train_df['marital'].map({'married': 0,'single':1,'divorced':2})
-model_train_df['education'] = model_train_df['education'].map({'unknown':0, 'primary':1, 'secondary':2, 'tertiary':3})
+model_train_df['education'] = model_train_df['education'].map({'unknown':np.nan, 'primary':1, 'secondary':2, 'tertiary':3})
 model_train_df['education']= model_train_df['education'].astype(float)
 model_train_df['contact'] = model_train_df['contact'].map({'unknown':0,'cellular':1, 'telephone':2})
-model_train_df['poutcome'] = model_train_df['poutcome'].map({'unknown':-1,'failure': 1,'other':2,'success':3})
+model_train_df['poutcome'] = model_train_df['poutcome'].map({'unknown':0,'failure': 1,'other':2,'success':3})
 model_train_df['poutcome']= model_train_df['poutcome'].astype(float)
 model_train_df['default'] = model_train_df['default'].map({'yes':1,'no':0,0:0, 1:1}) #has credit in default
 model_train_df['housing'] = model_train_df['housing'].map({'yes':1,'no':0,0:0, 1:1})
@@ -93,6 +95,12 @@ model_train_df['y'] = model_train_df['y'].astype(int)
 X = model_train_df.drop(columns=["y"])
 Y = model_train_df['y']
 x_train, x_test, y_train, y_test = train_test_split(X,Y,test_size=0.2,random_state=10)
+imputer = KNNImputer(n_neighbors=5,missing_values=np.nan)
+x_train = pd.DataFrame(imputer.fit_transform(x_train))
+x_test = pd.DataFrame(imputer.transform(x_test))
+joblib.dump(imputer, 'x_train_imputed.pkl')
+#imputer =joblib.load('x_train_imputed.pkl') #fitted function will be saved for future estimation
+
 
 #finding optimal randomForest parameters with ____________________  OPTUNA  ____________________
 """parameters ={
@@ -171,22 +179,27 @@ best_clf.fit(x_train, y_train)
 
 #____________________________ proximity matrix  _________________________________
 
-def proximity_impute_dataframe(df, clf, feature_cols, missing_markers):
+"""def proximity_impute_dataframe(df, clf, feature_cols, missing_markers):
     df_copy = df.copy()
-    leaf_train = clf.apply(df_copy[feature_cols])  # (n_samples, n_trees)
+    leaf_train = clf.apply(df_copy[feature_cols])  # apply function checks every sample by every tree and returns : (n_samples, n_trees)
 
-    for row_idx, row in df_copy.iterrows():
+    for row_idx, row in df_copy.iterrows():# row index is important because at the end we want to replace the data
         for feature, marker in missing_markers.items():
+            print(f"which feature: {feature}, which row: {row_idx}")
             if row[feature] == marker:
                 row_df = row[feature_cols].to_frame().T
-                leaf_unknown = clf.apply(row_df)  # (1, n_trees)
-                prox = np.mean(leaf_train == leaf_unknown, axis=1)  # (n_samples,)
+                #leaf_unknown = clf.apply(row_df)  # (1, n_trees)
+                leaf_unknown = clf.apply([row[feature_cols]])
+                valid_idx = df_copy[feature] != marker
+                valid_positions = np.where(valid_idx.to_numpy())[0]
+                sample_idx = np.random.choice(valid_positions, size=5000, replace=False) # that makes the program lighter
+                prox = np.mean(leaf_train[sample_idx] == leaf_unknown, axis=1)  # this line calculates mean  across all trees for each sample and returns an array that shows how similar each sample is to the mentioned row
+                print(f"prox {prox}")
 
                 # Weighted average for imputation
-                valid = df_copy[feature] != marker
                 estimate = np.average(
-                    df_copy.loc[valid, feature],
-                    weights=prox[valid]
+                    df_copy.loc[sample_idx, feature],
+                    weights=prox
                 )
 
                 # Replace missing value
@@ -199,14 +212,14 @@ prox_x_train = proximity_impute_dataframe(
     x_train,
     best_clf,
     feature_cols,
-    missing_markers={'job': -1,'poutcome': -1,'education':0 }
+    missing_markers={'job': -1,'education':0 }
 )
 
 print("Imputation finished.")
 print(type(prox_x_train))
 print(prox_x_train.head())
 
-best_clf.fit(prox_x_train, y_train)
+best_clf.fit(prox_x_train, y_train)"""
 #________________________________________________________________________________
 y_proba = best_clf.predict_proba(x_test)
 
@@ -219,6 +232,7 @@ else:
 # Compute ROC AUC on test set
 print("Final Test ROC AUC:", roc_auc_score(y_test_fixed, y_proba[:,1], multi_class="ovr"))
 #Final Test ROC AUC: 0.9518467627264986
+#Final Test ROC AUC After using KNNimputer: 0.9517615488727839
 
 
 
