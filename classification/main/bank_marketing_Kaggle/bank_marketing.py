@@ -74,11 +74,11 @@ def set_data_type(df):
                                                     'blue-collar': 9,
                                                     'technician': 10,
                                                     'retired': 7,
-                                                    'admin.':8,
-                                                    'management': 13,
-                                                    'entrepreneur': 20})
+                                                    'admin.':12,
+                                                    'management': 20,
+                                                    'entrepreneur': 27})
 
-    df['job']= df['job'].astype(float)
+    #df['job']= df['job'].astype(float)
     df['marital'] = df['marital'].map({'married': 0,'single':1,'divorced':2})
     df['education'] = df['education'].map({'unknown':np.nan, 'primary':1, 'secondary':2, 'tertiary':3})
     df['education']= df['education'].astype(float)
@@ -88,7 +88,7 @@ def set_data_type(df):
     df['default'] = df['default'].map({'yes':1,'no':0,0:0, 1:1}) #has credit in default
     df['housing'] = df['housing'].map({'yes':1,'no':0,0:0, 1:1})
     df['loan'] = df['loan'].map({'yes':1,'no':0,0:0, 1:1})
-    if df['y']:
+    if df.shape[1] == 15:
         df['y'] = df['y'].map({'yes':1,'no':0, 0:0, 1:1})
         df['y'] = df['y'].astype(int)
 

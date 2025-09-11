@@ -1,5 +1,6 @@
 import numpy as np
 import pandas as pd
+from sklearn.impute import KNNImputer
 import pickle
 import joblib
 
@@ -64,6 +65,10 @@ test_df = set_data_type(competition_test)
 x_train = train_df.drop(columns=["y"])
 y_train = train_df['y']
 
+"""imputer =joblib.load('x_train_imputed.pkl')
+
+x_train = pd.DataFrame(imputer.transform(x_train))
+test_df = pd.DataFrame(imputer.transform(test_df))"""
 max_depth= 18
 n_estimators= 120
 min_samples_leaf= 3
@@ -75,17 +80,18 @@ clf = sklearn.ensemble.RandomForestClassifier(max_depth= max_depth,
                                               criterion= criterion,random_state=42)
 clf.fit(x_train, y_train)
 
-y_proba = clf.predict_proba(competition_test)[:, 1]
+y_proba = clf.predict_proba(test_df)[:, 1]
 
 submission = pd.DataFrame({
     "id": test_id,
     "y": y_proba
 })
 
-# 7. Save to CSV
-submission.to_csv("submission.csv", index=False)
-print(" submission.csv file created")
 
+# 7. Save to CSV
+submission.to_csv("submissionLat.csv", index=False)
+
+print("submission.csv file created")
 
 
 

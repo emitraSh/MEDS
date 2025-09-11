@@ -22,6 +22,7 @@
       - n_estimators: Affects training time, not accuracy: More trees → more time and memory usage. If your laptop is slow, you might reduce this and rely on early_stopping_rounds.
       - max_bin:Higher bins = more memory and training time. On low-RAM laptops, keep it modest.
       - gpu_id: ou might need to choose which GPU to run on; not relevant if you have only one GPU.
+      - model.feature_importances_ : it has a function, feature importance that shows which feature is most important
     - task parameters:
     - https://xgboost.readthedocs.io/en/stable/parameter.html?utm_source=chatgpt.com#parameters-for-tree-booster
 
@@ -32,3 +33,52 @@
 - How can I use Optuna? install -> import as a library...
 - n_jobs: -1 uses all CPU cores for speed? does it have to change depending on laptop hardware?which parameters have that dependence?
 - random_state=42 makes the split reproducible/ does it mean duplicated are allowed?
+
+
+# AutoGluon
+AutoGluon is an open-source AutoML (Automated Machine Learning) toolkit developed by Amazon Web Services (AWS).
+
+AutoGluon uses a multi-layered ensemble framework combined with automated hyperparameter tuning and neural architecture search (NAS) in some domains.
+
+✅ Support for Multiple ML Tasks
+- Tabular data (classification, regression)
+- Image classification and object detection
+- Text classification, summarization, etc.
+- Multimodal tasks (combining text, images, etc.)
+
+✅ Auto-Ensembling
+- Automatically trains multiple models (e.g., XGBoost, LightGBM, neural nets) and combines them using stacking or bagging to improve performance.
+
+✅ Hyperparameter Optimization
+
+Uses Bayesian optimization and other methods under the hood to search for the best models and configurations.
+
+```python
+from autogluon.tabular import TabularPredictor
+
+predictor = TabularPredictor(label="target_column").fit(train_data)
+predictions = predictor.predict(test_data)
+```
+For Tabular Data (autogluon.tabular), it can include:
+- Tree-Based Models
+    - LightGBM (Gradient Boosted Decision Trees)
+    - XGBoost
+    - CatBoost
+    - Random Forest
+    - ExtraTrees
+
+  - Linear Models
+  - Logistic Regression
+    - Linear Regression
+
+- Neural Networks
+    - Feedforward neural networks (MLP) using MXNet or PyTorch backend
+
+- k-Nearest Neighbors (KNN)
+  - Ensembles / Meta-Models
+  - Bagging (e.g., multiple LightGBMs)
+  - Stacking (Layer-wise model stacking — more on this below)
+
+- Specialized Models
+    - TabTransformer (for categorical variables via deep learning)
+
