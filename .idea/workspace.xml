@@ -4,18 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc00e33-c375-4ee9-904d-a4428f159fb3" name="Changes" comment="kaggle">
-      <change afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/handwrittenDigits.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/neuralNetworkFromScratch.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classification/main/readme/dataEngineering.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classification/main/readme/deepLearning.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/classification/main/readme/dictionary.md" afterDir="false" />
+    <list default="true" id="0dc00e33-c375-4ee9-904d-a4428f159fb3" name="Changes" comment="nn">
+      <change afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/network2.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle/bank_marketing.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle/bank_marketing.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle/final_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle/final_model.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/decisionTree.md" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/readme/decisionTree.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/libraries.md" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/readme/libraries.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/readme/classificationModels.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/neuralNetwork/handwrittenDigits.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/handwrittenDigits.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/neuralNetwork/neuralNetworkFromScratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/neuralNetworkFromScratch.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,44 +50,53 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.bank_marketing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.breast_cancer.executor&quot;: &quot;Run&quot;,
-    &quot;Python.codetest.executor&quot;: &quot;Run&quot;,
-    &quot;Python.final_model.executor&quot;: &quot;Run&quot;,
-    &quot;Python.handwrittenDigits.executor&quot;: &quot;Run&quot;,
-    &quot;Python.logesticRegression.executor&quot;: &quot;Run&quot;,
-    &quot;Python.test_model.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/USER/PycharmProjects/classification/classification/main/readme/backpropagation.png&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.bank_marketing.executor": "Run",
+    "Python.binomial_across_thetas.executor": "Run",
+    "Python.breast_cancer.executor": "Run",
+    "Python.codetest.executor": "Run",
+    "Python.final_model.executor": "Run",
+    "Python.fromQ9.executor": "Run",
+    "Python.gamma_posterior.executor": "Run",
+    "Python.grid_evaluation_BiNom.executor": "Run",
+    "Python.handwrittenDigits.executor": "Run",
+    "Python.logesticRegression.executor": "Run",
+    "Python.sheet-one.executor": "Run",
+    "Python.sheet22.executor": "Run",
+    "Python.sheet4_q1_b_c.executor": "Run",
+    "Python.sheet4_q2.executor": "Run",
+    "Python.sheet_1.executor": "Run",
+    "Python.test_model.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "C:/Users/USER/PycharmProjects/classification/classification/main/readme/backpropagation.png",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;ChangesTree.GroupingKeys&quot;: [
-      &quot;directory&quot;
+  "keyToStringList": {
+    "ChangesTree.GroupingKeys": [
+      "directory"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\breastCancer_logisticRegression" />
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\Time-Series-analysis" />
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\neuralNetwork" />
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\neuralNetwork\neural-networks-and-deep-learning-master\neural-networks-and-deep-learning-master" />
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\readme" />
       <recent name="C:\Users\USER\PycharmProjects\classification\classification\main\bank_marketing_Kaggle" />
-      <recent name="C:\Users\USER\PycharmProjects\classification\classification\main" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -152,7 +154,30 @@
       <workItem from="1757334489416" duration="10440000" />
       <workItem from="1757431122876" duration="1272000" />
       <workItem from="1757513769468" duration="882000" />
-      <workItem from="1757603583363" duration="527000" />
+      <workItem from="1757603583363" duration="4079000" />
+      <workItem from="1759919475303" duration="1212000" />
+      <workItem from="1760778742664" duration="2335000" />
+      <workItem from="1760816225237" duration="337000" />
+      <workItem from="1760854714409" duration="4353000" />
+      <workItem from="1760954288703" duration="3337000" />
+      <workItem from="1761108043926" duration="5141000" />
+      <workItem from="1761152448372" duration="1686000" />
+      <workItem from="1761729733234" duration="19000" />
+      <workItem from="1761734662697" duration="4446000" />
+      <workItem from="1762284276256" duration="8346000" />
+      <workItem from="1762333598271" duration="568000" />
+      <workItem from="1762369060936" duration="605000" />
+      <workItem from="1764688462495" duration="8329000" />
+      <workItem from="1764763286424" duration="56000" />
+      <workItem from="1764763359045" duration="1058000" />
+      <workItem from="1764783892470" duration="189000" />
+      <workItem from="1764785040257" duration="94000" />
+      <workItem from="1764785144377" duration="2388000" />
+      <workItem from="1765117180063" duration="1959000" />
+      <workItem from="1765188232022" duration="5830000" />
+      <workItem from="1766592004329" duration="3608000" />
+      <workItem from="1766641273260" duration="1686000" />
+      <workItem from="1766662596298" duration="6468000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -226,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1756146890901</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="nn">
+      <option name="closed" value="true" />
+      <created>1757604490801</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1757604490801</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -236,14 +269,35 @@
     <MESSAGE value="test" />
     <MESSAGE value="decisionTree_cancerDataset" />
     <MESSAGE value="kaggle" />
-    <option name="LAST_COMMIT_MESSAGE" value="kaggle" />
+    <MESSAGE value="nn" />
+    <option name="LAST_COMMIT_MESSAGE" value="nn" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classification/main/Bayesian Statistics/sheet_1.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/statistics$logesticRegression.coverage" NAME="logesticRegression Coverage Results" MODIFIED="1754923874228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/breastCancer_logisticRegression" />
+    <SUITE FILE_PATH="coverage/statistics$sheet4_q2.coverage" NAME="sheet4_q2 Coverage Results" MODIFIED="1764786922263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
+    <SUITE FILE_PATH="coverage/statistics$sheet_1.coverage" NAME="sheet_1 Coverage Results" MODIFIED="1765194341846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$codetest.coverage" NAME="codetest Coverage Results" MODIFIED="1755981577543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main" />
-    <SUITE FILE_PATH="coverage/statistics$handwrittenDigits.coverage" NAME="handwrittenDigits Coverage Results" MODIFIED="1757345664374" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/neuralNetwork" />
+    <SUITE FILE_PATH="coverage/statistics$sheet4_q1_b_c.coverage" NAME="sheet4_q1_b_c Coverage Results" MODIFIED="1764703454307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
+    <SUITE FILE_PATH="coverage/statistics$gamma_posterior.coverage" NAME="gamma_posterior Coverage Results" MODIFIED="1766600630835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1755092964464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/breastCancer_logisticRegression" />
     <SUITE FILE_PATH="coverage/statistics$final_model.coverage" NAME="final_model Coverage Results" MODIFIED="1756227640219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle" />
+    <SUITE FILE_PATH="coverage/statistics$binomial_across_thetas.coverage" NAME="binomial_across_thetas Coverage Results" MODIFIED="1765190090010" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
+    <SUITE FILE_PATH="coverage/statistics$fromQ9.coverage" NAME="fromQ9 Coverage Results" MODIFIED="1761739034482" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
+    <SUITE FILE_PATH="coverage/statistics$logesticRegression.coverage" NAME="logesticRegression Coverage Results" MODIFIED="1754923874228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/breastCancer_logisticRegression" />
+    <SUITE FILE_PATH="coverage/statistics$handwrittenDigits.coverage" NAME="handwrittenDigits Coverage Results" MODIFIED="1757606961339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/neuralNetwork" />
+    <SUITE FILE_PATH="coverage/statistics$sheet_one.coverage" NAME="sheet-one Coverage Results" MODIFIED="1761153747609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
+    <SUITE FILE_PATH="coverage/statistics$grid_evaluation_BiNom.coverage" NAME="grid_evaluation_BiNom Coverage Results" MODIFIED="1766665346180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
+    <SUITE FILE_PATH="coverage/statistics$sheet22.coverage" NAME="sheet22 Coverage Results" MODIFIED="1762292647660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/TimeSeries" />
     <SUITE FILE_PATH="coverage/statistics$bank_marketing.coverage" NAME="bank_marketing Coverage Results" MODIFIED="1756211937370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle" />
   </component>
 </project>
