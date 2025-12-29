@@ -4,11 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0dc00e33-c375-4ee9-904d-a4428f159fb3" name="Changes" comment="nn">
-      <change afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/network2.py" afterDir="false" />
+    <list default="true" id="0dc00e33-c375-4ee9-904d-a4428f159fb3" name="Changes" comment="transformation">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/neuralNetwork/handwrittenDigits.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/handwrittenDigits.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/classification/main/neuralNetwork/neuralNetworkFromScratch.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/neuralNetwork/neuralNetworkFromScratch.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/Time-Series-analysis/sheet4_q1_b_c.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/Time-Series-analysis/exponential_smoothing.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/Time-Series-analysis/sheet4_q2.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/Time-Series-analysis/simple_Holt_Winters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/codetest.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/decisionTree.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/decisionTree_structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/gda.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/gda_structure.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/classification/main/nbc.py" beforeDir="false" afterPath="$PROJECT_DIR$/classification/main/nbc_structure.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,6 +28,12 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;emitraSh&quot;
+  }
+}</component>
   <component name="GitLabMergeRequestFiltersHistory">{
   &quot;lastFilter&quot;: {
     &quot;state&quot;: &quot;OPENED&quot;,
@@ -41,6 +50,12 @@
     &quot;second&quot;: &quot;d442ad2d-5e19-4ded-9c9e-56b06818c3e1&quot;
   }
 }</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/emitraSh/Statistics_Bayesian.git&quot;,
+    &quot;accountId&quot;: &quot;e2fd8779-f10b-4c08-9736-9090bea3a4db&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
@@ -55,6 +70,7 @@
     "Python.bank_marketing.executor": "Run",
     "Python.binomial_across_thetas.executor": "Run",
     "Python.breast_cancer.executor": "Run",
+    "Python.categorical_gibbs.executor": "Run",
     "Python.codetest.executor": "Run",
     "Python.final_model.executor": "Run",
     "Python.fromQ9.executor": "Run",
@@ -62,6 +78,7 @@
     "Python.grid_evaluation_BiNom.executor": "Run",
     "Python.handwrittenDigits.executor": "Run",
     "Python.logesticRegression.executor": "Run",
+    "Python.logit_log_transformation.executor": "Run",
     "Python.sheet-one.executor": "Run",
     "Python.sheet22.executor": "Run",
     "Python.sheet4_q1_b_c.executor": "Run",
@@ -177,7 +194,10 @@
       <workItem from="1765188232022" duration="5830000" />
       <workItem from="1766592004329" duration="3608000" />
       <workItem from="1766641273260" duration="1686000" />
-      <workItem from="1766662596298" duration="6468000" />
+      <workItem from="1766662596298" duration="7521000" />
+      <workItem from="1766858854915" duration="7253000" />
+      <workItem from="1766913459465" duration="6956000" />
+      <workItem from="1766920510260" duration="4791000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <option name="closed" value="true" />
@@ -259,7 +279,23 @@
       <option name="project" value="LOCAL" />
       <updated>1757604490801</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Gibbs">
+      <option name="closed" value="true" />
+      <created>1766919935156</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1766919935156</updated>
+    </task>
+    <task id="LOCAL-00012" summary="transformation">
+      <option name="closed" value="true" />
+      <created>1766931162870</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1766931162870</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -270,7 +306,9 @@
     <MESSAGE value="decisionTree_cancerDataset" />
     <MESSAGE value="kaggle" />
     <MESSAGE value="nn" />
-    <option name="LAST_COMMIT_MESSAGE" value="nn" />
+    <MESSAGE value="Gibbs" />
+    <MESSAGE value="transformation" />
+    <option name="LAST_COMMIT_MESSAGE" value="transformation" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -280,14 +318,20 @@
           <line>96</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/classification/main/Bayesian Statistics/categorical_gibbs.py</url>
+          <line>19</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/statistics$sheet4_q2.coverage" NAME="sheet4_q2 Coverage Results" MODIFIED="1764786922263" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
     <SUITE FILE_PATH="coverage/statistics$sheet_1.coverage" NAME="sheet_1 Coverage Results" MODIFIED="1765194341846" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
-    <SUITE FILE_PATH="coverage/statistics$codetest.coverage" NAME="codetest Coverage Results" MODIFIED="1755981577543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main" />
+    <SUITE FILE_PATH="coverage/statistics$categorical_gibbs.coverage" NAME="categorical_gibbs Coverage Results" MODIFIED="1766919443770" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$sheet4_q1_b_c.coverage" NAME="sheet4_q1_b_c Coverage Results" MODIFIED="1764703454307" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
+    <SUITE FILE_PATH="coverage/statistics$codetest.coverage" NAME="codetest Coverage Results" MODIFIED="1755981577543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main" />
     <SUITE FILE_PATH="coverage/statistics$gamma_posterior.coverage" NAME="gamma_posterior Coverage Results" MODIFIED="1766600630835" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$breast_cancer.coverage" NAME="breast_cancer Coverage Results" MODIFIED="1755092964464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/breastCancer_logisticRegression" />
     <SUITE FILE_PATH="coverage/statistics$final_model.coverage" NAME="final_model Coverage Results" MODIFIED="1756227640219" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle" />
@@ -296,6 +340,7 @@
     <SUITE FILE_PATH="coverage/statistics$logesticRegression.coverage" NAME="logesticRegression Coverage Results" MODIFIED="1754923874228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/breastCancer_logisticRegression" />
     <SUITE FILE_PATH="coverage/statistics$handwrittenDigits.coverage" NAME="handwrittenDigits Coverage Results" MODIFIED="1757606961339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/neuralNetwork" />
     <SUITE FILE_PATH="coverage/statistics$sheet_one.coverage" NAME="sheet-one Coverage Results" MODIFIED="1761153747609" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Time-Series-analysis" />
+    <SUITE FILE_PATH="coverage/statistics$logit_log_transformation.coverage" NAME="logit_log_transformation Coverage Results" MODIFIED="1766930760832" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$grid_evaluation_BiNom.coverage" NAME="grid_evaluation_BiNom Coverage Results" MODIFIED="1766665346180" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/Bayesian Statistics" />
     <SUITE FILE_PATH="coverage/statistics$sheet22.coverage" NAME="sheet22 Coverage Results" MODIFIED="1762292647660" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/TimeSeries" />
     <SUITE FILE_PATH="coverage/statistics$bank_marketing.coverage" NAME="bank_marketing Coverage Results" MODIFIED="1756211937370" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/classification/main/bank_marketing_Kaggle" />
