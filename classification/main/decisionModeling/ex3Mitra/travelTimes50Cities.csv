@@ -1,0 +1,2353 @@
+origin;destination;distance_miles
+New York;Los Angeles;1376.2
+New York;Chicago;927.1
+New York;Houston;1096.1
+New York;Phoenix;1744.0
+New York;Philadelphia;770.5
+New York;San Antonio;224.8
+New York;San Diego;129.7
+New York;Dallas;2595.1
+New York;San Jose;856.3
+New York;Austin;650.9
+New York;Jacksonville;2195.8
+New York;Fort Worth;1851.8
+New York;Columbus;2423.8
+New York;Charlotte;1140.7
+New York;San Francisco;1500.0
+New York;Indianapolis;2964.8
+New York;Seattle;234.1
+New York;Denver;2291.2
+New York;Washington;240.2
+New York;Boston;550.3
+New York;El Paso;1300.8
+New York;Nashville;722.0
+New York;Detroit;1734.6
+New York;Oklahoma City;970.5
+New York;Portland;2435.5
+New York;Las Vegas;1725.4
+New York;Memphis;2972.1
+New York;Louisville;149.1
+New York;Baltimore;540.5
+New York;Milwaukee;2963.5
+New York;Albuquerque;1238.1
+New York;Tucson;1380.4
+New York;Fresno;2687.9
+New York;Mesa;2520.7
+New York;Sacramento;2968.7
+New York;Atlanta;2276.4
+New York;Kansas City;1265.9
+New York;Colorado Springs;2871.6
+New York;Miami;827.6
+New York;Raleigh;2987.0
+New York;Omaha;2245.0
+New York;Long Beach;2377.2
+New York;Virginia Beach;2505.9
+New York;Oakland;1255.6
+New York;Minneapolis;973.6
+New York;Tulsa;481.1
+New York;Arlington;1852.7
+New York;New Orleans;184.4
+Los Angeles;New York;847.8
+Los Angeles;Chicago;1960.2
+Los Angeles;Houston;320.5
+Los Angeles;Phoenix;2245.2
+Los Angeles;Philadelphia;1598.5
+Los Angeles;San Antonio;2899.4
+Los Angeles;San Diego;1445.2
+Los Angeles;Dallas;2764.4
+Los Angeles;San Jose;2753.3
+Los Angeles;Austin;680.5
+Los Angeles;Jacksonville;1184.8
+Los Angeles;Fort Worth;1586.6
+Los Angeles;Columbus;1210.6
+Los Angeles;Charlotte;867.8
+Los Angeles;San Francisco;2924.2
+Los Angeles;Indianapolis;457.8
+Los Angeles;Seattle;616.4
+Los Angeles;Denver;1120.5
+Los Angeles;Washington;211.5
+Los Angeles;Boston;1898.7
+Los Angeles;El Paso;443.2
+Los Angeles;Nashville;69.8
+Los Angeles;Detroit;1398.6
+Los Angeles;Oklahoma City;2077.8
+Los Angeles;Portland;1578.2
+Los Angeles;Las Vegas;2238.4
+Los Angeles;Memphis;2438.6
+Los Angeles;Louisville;1419.2
+Los Angeles;Baltimore;2562.3
+Los Angeles;Milwaukee;1057.5
+Los Angeles;Albuquerque;691.5
+Los Angeles;Tucson;2656.6
+Los Angeles;Fresno;1936.6
+Los Angeles;Mesa;1699.1
+Los Angeles;Sacramento;2577.1
+Los Angeles;Atlanta;2284.2
+Los Angeles;Kansas City;675.2
+Los Angeles;Colorado Springs;2250.3
+Los Angeles;Miami;2152.9
+Los Angeles;Raleigh;2973.1
+Los Angeles;Omaha;2124.3
+Los Angeles;Long Beach;1847.4
+Los Angeles;Virginia Beach;2511.2
+Los Angeles;Oakland;2686.4
+Los Angeles;Minneapolis;800.6
+Los Angeles;Tulsa;1630.7
+Los Angeles;Arlington;2471.0
+Los Angeles;New Orleans;593.7
+Chicago;New York;1884.3
+Chicago;Los Angeles;2928.2
+Chicago;Houston;2812.3
+Chicago;Phoenix;2875.0
+Chicago;Philadelphia;535.0
+Chicago;San Antonio;203.7
+Chicago;San Diego;2476.9
+Chicago;Dallas;2582.5
+Chicago;San Jose;2189.6
+Chicago;Austin;196.1
+Chicago;Jacksonville;819.7
+Chicago;Fort Worth;2325.8
+Chicago;Columbus;662.0
+Chicago;Charlotte;997.4
+Chicago;San Francisco;2974.2
+Chicago;Indianapolis;777.8
+Chicago;Seattle;2026.8
+Chicago;Denver;1472.5
+Chicago;Washington;941.6
+Chicago;Boston;827.0
+Chicago;El Paso;1837.0
+Chicago;Nashville;2725.8
+Chicago;Detroit;2736.9
+Chicago;Oklahoma City;292.3
+Chicago;Portland;2503.9
+Chicago;Las Vegas;793.7
+Chicago;Memphis;298.8
+Chicago;Louisville;59.5
+Chicago;Baltimore;489.9
+Chicago;Milwaukee;2498.9
+Chicago;Albuquerque;956.4
+Chicago;Tucson;2117.9
+Chicago;Fresno;1244.2
+Chicago;Mesa;1495.7
+Chicago;Sacramento;2355.4
+Chicago;Atlanta;2882.5
+Chicago;Kansas City;1781.4
+Chicago;Colorado Springs;221.9
+Chicago;Miami;1995.1
+Chicago;Raleigh;1527.6
+Chicago;Omaha;2534.8
+Chicago;Long Beach;2198.9
+Chicago;Virginia Beach;710.4
+Chicago;Oakland;2806.7
+Chicago;Minneapolis;718.9
+Chicago;Tulsa;1881.4
+Chicago;Arlington;1860.8
+Chicago;New Orleans;189.1
+Houston;New York;2024.8
+Houston;Los Angeles;2377.4
+Houston;Chicago;414.2
+Houston;Phoenix;1937.7
+Houston;Philadelphia;991.1
+Houston;San Antonio;2354.5
+Houston;San Diego;490.7
+Houston;Dallas;773.1
+Houston;San Jose;2930.8
+Houston;Austin;2922.3
+Houston;Jacksonville;142.9
+Houston;Fort Worth;562.5
+Houston;Columbus;617.5
+Houston;Charlotte;1120.9
+Houston;San Francisco;2357.8
+Houston;Indianapolis;1070.9
+Houston;Seattle;2302.8
+Houston;Denver;684.9
+Houston;Washington;2385.2
+Houston;Boston;1066.8
+Houston;El Paso;1097.1
+Houston;Nashville;1495.3
+Houston;Detroit;519.0
+Houston;Oklahoma City;1043.2
+Houston;Portland;2067.0
+Houston;Las Vegas;639.3
+Houston;Memphis;423.5
+Houston;Louisville;1454.1
+Houston;Baltimore;730.7
+Houston;Milwaukee;1537.7
+Houston;Albuquerque;2022.8
+Houston;Tucson;1000.6
+Houston;Fresno;1621.3
+Houston;Mesa;882.3
+Houston;Sacramento;142.1
+Houston;Atlanta;2916.2
+Houston;Kansas City;1343.9
+Houston;Colorado Springs;1286.8
+Houston;Miami;2055.8
+Houston;Raleigh;735.5
+Houston;Omaha;1112.9
+Houston;Long Beach;382.3
+Houston;Virginia Beach;816.9
+Houston;Oakland;514.6
+Houston;Minneapolis;670.5
+Houston;Tulsa;679.9
+Houston;Arlington;626.3
+Houston;New Orleans;2636.7
+Phoenix;New York;2684.0
+Phoenix;Los Angeles;1490.7
+Phoenix;Chicago;2314.0
+Phoenix;Houston;346.3
+Phoenix;Philadelphia;1179.4
+Phoenix;San Antonio;930.3
+Phoenix;San Diego;373.3
+Phoenix;Dallas;2792.9
+Phoenix;San Jose;2007.0
+Phoenix;Austin;1100.9
+Phoenix;Jacksonville;1486.9
+Phoenix;Fort Worth;1818.8
+Phoenix;Columbus;1756.7
+Phoenix;Charlotte;455.3
+Phoenix;San Francisco;801.2
+Phoenix;Indianapolis;1025.5
+Phoenix;Seattle;781.6
+Phoenix;Denver;885.2
+Phoenix;Washington;954.9
+Phoenix;Boston;2252.5
+Phoenix;El Paso;1273.7
+Phoenix;Nashville;113.8
+Phoenix;Detroit;2885.0
+Phoenix;Oklahoma City;1884.6
+Phoenix;Portland;1199.6
+Phoenix;Las Vegas;2753.9
+Phoenix;Memphis;1026.9
+Phoenix;Louisville;2398.8
+Phoenix;Baltimore;251.3
+Phoenix;Milwaukee;1631.9
+Phoenix;Albuquerque;1258.5
+Phoenix;Tucson;2880.7
+Phoenix;Fresno;198.5
+Phoenix;Mesa;310.2
+Phoenix;Sacramento;1707.6
+Phoenix;Atlanta;901.0
+Phoenix;Kansas City;933.7
+Phoenix;Colorado Springs;2745.4
+Phoenix;Miami;258.8
+Phoenix;Raleigh;2189.7
+Phoenix;Omaha;2581.1
+Phoenix;Long Beach;256.2
+Phoenix;Virginia Beach;1758.1
+Phoenix;Oakland;1221.8
+Phoenix;Minneapolis;795.1
+Phoenix;Tulsa;1510.1
+Phoenix;Arlington;1356.5
+Phoenix;New Orleans;1703.1
+Philadelphia;New York;627.7
+Philadelphia;Los Angeles;197.1
+Philadelphia;Chicago;823.7
+Philadelphia;Houston;1814.5
+Philadelphia;Phoenix;1193.1
+Philadelphia;San Antonio;2476.8
+Philadelphia;San Diego;2374.7
+Philadelphia;Dallas;2350.7
+Philadelphia;San Jose;2168.3
+Philadelphia;Austin;2764.2
+Philadelphia;Jacksonville;2106.4
+Philadelphia;Fort Worth;1586.5
+Philadelphia;Columbus;2285.1
+Philadelphia;Charlotte;452.2
+Philadelphia;San Francisco;1342.8
+Philadelphia;Indianapolis;947.5
+Philadelphia;Seattle;2538.5
+Philadelphia;Denver;914.9
+Philadelphia;Washington;2345.8
+Philadelphia;Boston;1830.5
+Philadelphia;El Paso;874.1
+Philadelphia;Nashville;968.5
+Philadelphia;Detroit;562.9
+Philadelphia;Oklahoma City;2321.2
+Philadelphia;Portland;2146.5
+Philadelphia;Las Vegas;2443.4
+Philadelphia;Memphis;2360.5
+Philadelphia;Louisville;1848.8
+Philadelphia;Baltimore;664.0
+Philadelphia;Milwaukee;527.6
+Philadelphia;Albuquerque;469.0
+Philadelphia;Tucson;2227.3
+Philadelphia;Fresno;497.9
+Philadelphia;Mesa;2490.5
+Philadelphia;Sacramento;1672.6
+Philadelphia;Atlanta;346.8
+Philadelphia;Kansas City;1721.3
+Philadelphia;Colorado Springs;846.7
+Philadelphia;Miami;2759.2
+Philadelphia;Raleigh;2385.7
+Philadelphia;Omaha;463.9
+Philadelphia;Long Beach;312.6
+Philadelphia;Virginia Beach;729.3
+Philadelphia;Oakland;2032.8
+Philadelphia;Minneapolis;611.5
+Philadelphia;Tulsa;53.6
+Philadelphia;Arlington;1756.5
+Philadelphia;New Orleans;2253.7
+San Antonio;New York;2693.0
+San Antonio;Los Angeles;121.0
+San Antonio;Chicago;695.7
+San Antonio;Houston;1761.7
+San Antonio;Phoenix;2309.4
+San Antonio;Philadelphia;2217.7
+San Antonio;San Diego;226.0
+San Antonio;Dallas;1450.9
+San Antonio;San Jose;1702.6
+San Antonio;Austin;2670.6
+San Antonio;Jacksonville;2366.3
+San Antonio;Fort Worth;694.2
+San Antonio;Columbus;2613.8
+San Antonio;Charlotte;900.2
+San Antonio;San Francisco;2207.5
+San Antonio;Indianapolis;188.1
+San Antonio;Seattle;2303.2
+San Antonio;Denver;2322.8
+San Antonio;Washington;982.5
+San Antonio;Boston;1788.0
+San Antonio;El Paso;2358.1
+San Antonio;Nashville;496.6
+San Antonio;Detroit;2458.1
+San Antonio;Oklahoma City;2364.5
+San Antonio;Portland;1720.5
+San Antonio;Las Vegas;470.3
+San Antonio;Memphis;2826.2
+San Antonio;Louisville;692.1
+San Antonio;Baltimore;895.7
+San Antonio;Milwaukee;1283.1
+San Antonio;Albuquerque;2775.9
+San Antonio;Tucson;1516.5
+San Antonio;Fresno;2254.8
+San Antonio;Mesa;1873.3
+San Antonio;Sacramento;388.5
+San Antonio;Atlanta;1455.4
+San Antonio;Kansas City;1237.3
+San Antonio;Colorado Springs;2340.5
+San Antonio;Miami;563.4
+San Antonio;Raleigh;504.3
+San Antonio;Omaha;460.1
+San Antonio;Long Beach;2393.0
+San Antonio;Virginia Beach;2011.3
+San Antonio;Oakland;1409.1
+San Antonio;Minneapolis;571.4
+San Antonio;Tulsa;168.0
+San Antonio;Arlington;2550.7
+San Antonio;New Orleans;2864.2
+San Diego;New York;1018.9
+San Diego;Los Angeles;356.0
+San Diego;Chicago;2511.4
+San Diego;Houston;1853.5
+San Diego;Phoenix;2496.2
+San Diego;Philadelphia;393.5
+San Diego;San Antonio;939.1
+San Diego;Dallas;1620.2
+San Diego;San Jose;2363.9
+San Diego;Austin;2255.9
+San Diego;Jacksonville;79.1
+San Diego;Fort Worth;466.6
+San Diego;Columbus;1543.1
+San Diego;Charlotte;1538.3
+San Diego;San Francisco;718.2
+San Diego;Indianapolis;889.4
+San Diego;Seattle;2517.2
+San Diego;Denver;1079.5
+San Diego;Washington;2533.8
+San Diego;Boston;1544.7
+San Diego;El Paso;1287.0
+San Diego;Nashville;2270.5
+San Diego;Detroit;2479.9
+San Diego;Oklahoma City;1331.1
+San Diego;Portland;2999.9
+San Diego;Las Vegas;2783.3
+San Diego;Memphis;2308.0
+San Diego;Louisville;2697.2
+San Diego;Baltimore;830.9
+San Diego;Milwaukee;1697.8
+San Diego;Albuquerque;902.1
+San Diego;Tucson;975.2
+San Diego;Fresno;496.5
+San Diego;Mesa;2017.1
+San Diego;Sacramento;2715.9
+San Diego;Atlanta;78.9
+San Diego;Kansas City;939.7
+San Diego;Colorado Springs;352.1
+San Diego;Miami;2390.6
+San Diego;Raleigh;588.6
+San Diego;Omaha;2345.4
+San Diego;Long Beach;2960.9
+San Diego;Virginia Beach;2226.8
+San Diego;Oakland;2304.7
+San Diego;Minneapolis;2065.0
+San Diego;Tulsa;269.7
+San Diego;Arlington;1228.1
+San Diego;New Orleans;1084.6
+Dallas;New York;2403.5
+Dallas;Los Angeles;2031.3
+Dallas;Chicago;1852.9
+Dallas;Houston;1417.0
+Dallas;Phoenix;51.8
+Dallas;Philadelphia;148.9
+Dallas;San Antonio;908.6
+Dallas;San Diego;834.1
+Dallas;San Jose;2037.8
+Dallas;Austin;2974.9
+Dallas;Jacksonville;2850.8
+Dallas;Fort Worth;881.5
+Dallas;Columbus;1480.7
+Dallas;Charlotte;594.8
+Dallas;San Francisco;2560.8
+Dallas;Indianapolis;1128.7
+Dallas;Seattle;1219.2
+Dallas;Denver;2349.8
+Dallas;Washington;2329.9
+Dallas;Boston;1723.3
+Dallas;El Paso;265.0
+Dallas;Nashville;1640.2
+Dallas;Detroit;2784.7
+Dallas;Oklahoma City;2895.3
+Dallas;Portland;2389.8
+Dallas;Las Vegas;1216.4
+Dallas;Memphis;661.2
+Dallas;Louisville;1568.6
+Dallas;Baltimore;2209.0
+Dallas;Milwaukee;2575.4
+Dallas;Albuquerque;2339.0
+Dallas;Tucson;1015.3
+Dallas;Fresno;2605.3
+Dallas;Mesa;2013.9
+Dallas;Sacramento;2160.6
+Dallas;Atlanta;1381.5
+Dallas;Kansas City;664.6
+Dallas;Colorado Springs;2180.1
+Dallas;Miami;1673.5
+Dallas;Raleigh;1053.4
+Dallas;Omaha;1709.7
+Dallas;Long Beach;1298.4
+Dallas;Virginia Beach;345.3
+Dallas;Oakland;716.3
+Dallas;Minneapolis;692.4
+Dallas;Tulsa;1079.6
+Dallas;Arlington;1504.8
+Dallas;New Orleans;1726.4
+San Jose;New York;1169.1
+San Jose;Los Angeles;1397.5
+San Jose;Chicago;855.2
+San Jose;Houston;1812.1
+San Jose;Phoenix;1249.0
+San Jose;Philadelphia;2460.1
+San Jose;San Antonio;2120.0
+San Jose;San Diego;736.5
+San Jose;Dallas;2041.7
+San Jose;Austin;506.6
+San Jose;Jacksonville;993.6
+San Jose;Fort Worth;413.5
+San Jose;Columbus;2777.5
+San Jose;Charlotte;2603.1
+San Jose;San Francisco;656.4
+San Jose;Indianapolis;180.1
+San Jose;Seattle;2387.8
+San Jose;Denver;1271.2
+San Jose;Washington;671.7
+San Jose;Boston;518.8
+San Jose;El Paso;2486.6
+San Jose;Nashville;1841.6
+San Jose;Detroit;2651.2
+San Jose;Oklahoma City;663.7
+San Jose;Portland;1645.6
+San Jose;Las Vegas;2986.9
+San Jose;Memphis;1224.1
+San Jose;Louisville;1452.0
+San Jose;Baltimore;104.8
+San Jose;Milwaukee;2005.6
+San Jose;Albuquerque;2899.9
+San Jose;Tucson;1968.6
+San Jose;Fresno;2363.0
+San Jose;Mesa;2187.0
+San Jose;Sacramento;2311.3
+San Jose;Atlanta;2173.5
+San Jose;Kansas City;772.5
+San Jose;Colorado Springs;2334.2
+San Jose;Miami;1104.8
+San Jose;Raleigh;2773.9
+San Jose;Omaha;2205.5
+San Jose;Long Beach;1441.3
+San Jose;Virginia Beach;1070.0
+San Jose;Oakland;2142.7
+San Jose;Minneapolis;2733.8
+San Jose;Tulsa;146.6
+San Jose;Arlington;2996.3
+San Jose;New Orleans;82.8
+Austin;New York;1658.7
+Austin;Los Angeles;1844.7
+Austin;Chicago;2567.2
+Austin;Houston;2954.4
+Austin;Phoenix;1366.5
+Austin;Philadelphia;1814.6
+Austin;San Antonio;2423.3
+Austin;San Diego;60.8
+Austin;Dallas;2604.0
+Austin;San Jose;2685.1
+Austin;Jacksonville;2900.2
+Austin;Fort Worth;2153.5
+Austin;Columbus;1786.5
+Austin;Charlotte;2561.2
+Austin;San Francisco;1548.3
+Austin;Indianapolis;1517.2
+Austin;Seattle;2295.9
+Austin;Denver;1534.8
+Austin;Washington;144.1
+Austin;Boston;1366.7
+Austin;El Paso;362.8
+Austin;Nashville;2071.4
+Austin;Detroit;117.0
+Austin;Oklahoma City;2844.8
+Austin;Portland;997.9
+Austin;Las Vegas;1973.7
+Austin;Memphis;1282.4
+Austin;Louisville;337.5
+Austin;Baltimore;860.7
+Austin;Milwaukee;935.9
+Austin;Albuquerque;649.9
+Austin;Tucson;2415.7
+Austin;Fresno;1126.6
+Austin;Mesa;964.6
+Austin;Sacramento;2356.6
+Austin;Atlanta;2833.9
+Austin;Kansas City;2248.7
+Austin;Colorado Springs;711.7
+Austin;Miami;2529.1
+Austin;Raleigh;1363.7
+Austin;Omaha;410.8
+Austin;Long Beach;1135.7
+Austin;Virginia Beach;1943.4
+Austin;Oakland;1966.1
+Austin;Minneapolis;908.2
+Austin;Tulsa;1583.1
+Austin;Arlington;2439.1
+Austin;New Orleans;2889.7
+Jacksonville;New York;1480.1
+Jacksonville;Los Angeles;2932.1
+Jacksonville;Chicago;389.5
+Jacksonville;Houston;1964.6
+Jacksonville;Phoenix;2670.5
+Jacksonville;Philadelphia;1759.9
+Jacksonville;San Antonio;562.9
+Jacksonville;San Diego;2445.8
+Jacksonville;Dallas;1210.6
+Jacksonville;San Jose;148.7
+Jacksonville;Austin;2867.6
+Jacksonville;Fort Worth;1294.2
+Jacksonville;Columbus;674.0
+Jacksonville;Charlotte;164.7
+Jacksonville;San Francisco;301.9
+Jacksonville;Indianapolis;1318.8
+Jacksonville;Seattle;150.3
+Jacksonville;Denver;1989.0
+Jacksonville;Washington;2175.4
+Jacksonville;Boston;1686.1
+Jacksonville;El Paso;868.7
+Jacksonville;Nashville;1612.1
+Jacksonville;Detroit;2388.6
+Jacksonville;Oklahoma City;307.9
+Jacksonville;Portland;1616.1
+Jacksonville;Las Vegas;56.6
+Jacksonville;Memphis;2077.7
+Jacksonville;Louisville;2793.3
+Jacksonville;Baltimore;2535.1
+Jacksonville;Milwaukee;2626.2
+Jacksonville;Albuquerque;278.7
+Jacksonville;Tucson;1305.9
+Jacksonville;Fresno;370.7
+Jacksonville;Mesa;644.6
+Jacksonville;Sacramento;898.0
+Jacksonville;Atlanta;1028.1
+Jacksonville;Kansas City;822.4
+Jacksonville;Colorado Springs;1446.1
+Jacksonville;Miami;339.7
+Jacksonville;Raleigh;2568.8
+Jacksonville;Omaha;1021.5
+Jacksonville;Long Beach;1479.2
+Jacksonville;Virginia Beach;1730.4
+Jacksonville;Oakland;1453.5
+Jacksonville;Minneapolis;295.8
+Jacksonville;Tulsa;2923.1
+Jacksonville;Arlington;455.3
+Jacksonville;New Orleans;2138.7
+Fort Worth;New York;1123.5
+Fort Worth;Los Angeles;286.1
+Fort Worth;Chicago;1608.6
+Fort Worth;Houston;293.2
+Fort Worth;Phoenix;1013.5
+Fort Worth;Philadelphia;2979.0
+Fort Worth;San Antonio;611.2
+Fort Worth;San Diego;1356.3
+Fort Worth;Dallas;1396.6
+Fort Worth;San Jose;1048.3
+Fort Worth;Austin;1787.2
+Fort Worth;Jacksonville;2260.7
+Fort Worth;Columbus;2745.0
+Fort Worth;Charlotte;102.3
+Fort Worth;San Francisco;2118.7
+Fort Worth;Indianapolis;2168.5
+Fort Worth;Seattle;2590.4
+Fort Worth;Denver;2392.4
+Fort Worth;Washington;1389.3
+Fort Worth;Boston;1864.8
+Fort Worth;El Paso;1881.4
+Fort Worth;Nashville;1291.3
+Fort Worth;Detroit;2911.3
+Fort Worth;Oklahoma City;943.9
+Fort Worth;Portland;1460.3
+Fort Worth;Las Vegas;1033.0
+Fort Worth;Memphis;2303.5
+Fort Worth;Louisville;1052.4
+Fort Worth;Baltimore;627.2
+Fort Worth;Milwaukee;2662.8
+Fort Worth;Albuquerque;780.0
+Fort Worth;Tucson;2043.1
+Fort Worth;Fresno;1460.8
+Fort Worth;Mesa;2022.3
+Fort Worth;Sacramento;56.1
+Fort Worth;Atlanta;2235.9
+Fort Worth;Kansas City;2972.4
+Fort Worth;Colorado Springs;211.5
+Fort Worth;Miami;2379.7
+Fort Worth;Raleigh;1622.9
+Fort Worth;Omaha;2224.6
+Fort Worth;Long Beach;578.0
+Fort Worth;Virginia Beach;900.8
+Fort Worth;Oakland;2894.5
+Fort Worth;Minneapolis;1208.2
+Fort Worth;Tulsa;1357.4
+Fort Worth;Arlington;2562.1
+Fort Worth;New Orleans;1697.8
+Columbus;New York;847.5
+Columbus;Los Angeles;1739.1
+Columbus;Chicago;2563.4
+Columbus;Houston;58.8
+Columbus;Phoenix;1934.8
+Columbus;Philadelphia;1381.8
+Columbus;San Antonio;1278.8
+Columbus;San Diego;2785.3
+Columbus;Dallas;971.6
+Columbus;San Jose;2153.9
+Columbus;Austin;1917.4
+Columbus;Jacksonville;1045.3
+Columbus;Fort Worth;1419.5
+Columbus;Charlotte;398.7
+Columbus;San Francisco;2084.9
+Columbus;Indianapolis;1352.2
+Columbus;Seattle;1185.9
+Columbus;Denver;1138.9
+Columbus;Washington;326.8
+Columbus;Boston;2524.7
+Columbus;El Paso;2233.3
+Columbus;Nashville;1071.2
+Columbus;Detroit;582.8
+Columbus;Oklahoma City;574.8
+Columbus;Portland;1134.0
+Columbus;Las Vegas;563.8
+Columbus;Memphis;1542.0
+Columbus;Louisville;2634.9
+Columbus;Baltimore;1692.5
+Columbus;Milwaukee;2514.4
+Columbus;Albuquerque;1618.7
+Columbus;Tucson;2162.3
+Columbus;Fresno;1109.9
+Columbus;Mesa;539.8
+Columbus;Sacramento;2192.1
+Columbus;Atlanta;2813.9
+Columbus;Kansas City;609.7
+Columbus;Colorado Springs;2783.0
+Columbus;Miami;509.5
+Columbus;Raleigh;2211.6
+Columbus;Omaha;2231.7
+Columbus;Long Beach;2892.3
+Columbus;Virginia Beach;375.8
+Columbus;Oakland;878.9
+Columbus;Minneapolis;817.8
+Columbus;Tulsa;1848.5
+Columbus;Arlington;2931.6
+Columbus;New Orleans;1841.5
+Charlotte;New York;1552.9
+Charlotte;Los Angeles;2879.2
+Charlotte;Chicago;2124.3
+Charlotte;Houston;2169.4
+Charlotte;Phoenix;2331.1
+Charlotte;Philadelphia;2188.5
+Charlotte;San Antonio;1124.1
+Charlotte;San Diego;2879.0
+Charlotte;Dallas;2842.6
+Charlotte;San Jose;936.7
+Charlotte;Austin;1774.8
+Charlotte;Jacksonville;1860.7
+Charlotte;Fort Worth;457.7
+Charlotte;Columbus;877.7
+Charlotte;San Francisco;1881.6
+Charlotte;Indianapolis;2592.7
+Charlotte;Seattle;2208.7
+Charlotte;Denver;1234.2
+Charlotte;Washington;2391.7
+Charlotte;Boston;2751.4
+Charlotte;El Paso;1335.9
+Charlotte;Nashville;1111.2
+Charlotte;Detroit;2286.0
+Charlotte;Oklahoma City;1912.7
+Charlotte;Portland;2809.8
+Charlotte;Las Vegas;348.3
+Charlotte;Memphis;1241.5
+Charlotte;Louisville;1785.3
+Charlotte;Baltimore;701.9
+Charlotte;Milwaukee;1105.5
+Charlotte;Albuquerque;2092.6
+Charlotte;Tucson;2403.3
+Charlotte;Fresno;2543.5
+Charlotte;Mesa;251.3
+Charlotte;Sacramento;416.1
+Charlotte;Atlanta;979.0
+Charlotte;Kansas City;2726.8
+Charlotte;Colorado Springs;123.2
+Charlotte;Miami;1127.3
+Charlotte;Raleigh;149.2
+Charlotte;Omaha;538.5
+Charlotte;Long Beach;2475.7
+Charlotte;Virginia Beach;2949.6
+Charlotte;Oakland;1854.1
+Charlotte;Minneapolis;331.7
+Charlotte;Tulsa;2696.0
+Charlotte;Arlington;2314.2
+Charlotte;New Orleans;756.5
+San Francisco;New York;953.9
+San Francisco;Los Angeles;2210.6
+San Francisco;Chicago;348.4
+San Francisco;Houston;1390.8
+San Francisco;Phoenix;761.6
+San Francisco;Philadelphia;168.2
+San Francisco;San Antonio;1194.0
+San Francisco;San Diego;1095.1
+San Francisco;Dallas;150.9
+San Francisco;San Jose;2270.7
+San Francisco;Austin;992.6
+San Francisco;Jacksonville;236.9
+San Francisco;Fort Worth;1222.2
+San Francisco;Columbus;464.6
+San Francisco;Charlotte;840.6
+San Francisco;Indianapolis;1545.6
+San Francisco;Seattle;113.6
+San Francisco;Denver;519.0
+San Francisco;Washington;1615.6
+San Francisco;Boston;648.8
+San Francisco;El Paso;879.8
+San Francisco;Nashville;1454.4
+San Francisco;Detroit;1630.4
+San Francisco;Oklahoma City;2048.2
+San Francisco;Portland;477.1
+San Francisco;Las Vegas;1790.6
+San Francisco;Memphis;2026.2
+San Francisco;Louisville;1982.3
+San Francisco;Baltimore;1093.8
+San Francisco;Milwaukee;466.5
+San Francisco;Albuquerque;2346.0
+San Francisco;Tucson;2152.5
+San Francisco;Fresno;249.8
+San Francisco;Mesa;1794.9
+San Francisco;Sacramento;1117.5
+San Francisco;Atlanta;2782.2
+San Francisco;Kansas City;1774.8
+San Francisco;Colorado Springs;605.4
+San Francisco;Miami;2827.3
+San Francisco;Raleigh;214.0
+San Francisco;Omaha;2516.9
+San Francisco;Long Beach;2333.2
+San Francisco;Virginia Beach;2091.7
+San Francisco;Oakland;1005.1
+San Francisco;Minneapolis;2300.7
+San Francisco;Tulsa;463.7
+San Francisco;Arlington;765.8
+San Francisco;New Orleans;2244.1
+Indianapolis;New York;901.2
+Indianapolis;Los Angeles;898.6
+Indianapolis;Chicago;335.7
+Indianapolis;Houston;2042.0
+Indianapolis;Phoenix;1622.1
+Indianapolis;Philadelphia;1234.8
+Indianapolis;San Antonio;203.0
+Indianapolis;San Diego;1402.2
+Indianapolis;Dallas;537.0
+Indianapolis;San Jose;719.3
+Indianapolis;Austin;829.0
+Indianapolis;Jacksonville;1861.3
+Indianapolis;Fort Worth;350.0
+Indianapolis;Columbus;636.8
+Indianapolis;Charlotte;2168.8
+Indianapolis;San Francisco;2618.0
+Indianapolis;Seattle;2317.7
+Indianapolis;Denver;2160.1
+Indianapolis;Washington;304.2
+Indianapolis;Boston;2686.1
+Indianapolis;El Paso;1136.9
+Indianapolis;Nashville;627.3
+Indianapolis;Detroit;1857.5
+Indianapolis;Oklahoma City;1816.5
+Indianapolis;Portland;1564.3
+Indianapolis;Las Vegas;2801.1
+Indianapolis;Memphis;1625.0
+Indianapolis;Louisville;1762.1
+Indianapolis;Baltimore;942.3
+Indianapolis;Milwaukee;1594.4
+Indianapolis;Albuquerque;2637.8
+Indianapolis;Tucson;1571.1
+Indianapolis;Fresno;818.2
+Indianapolis;Mesa;1108.2
+Indianapolis;Sacramento;2225.7
+Indianapolis;Atlanta;2079.6
+Indianapolis;Kansas City;1678.6
+Indianapolis;Colorado Springs;1406.2
+Indianapolis;Miami;2366.0
+Indianapolis;Raleigh;809.9
+Indianapolis;Omaha;2775.5
+Indianapolis;Long Beach;620.3
+Indianapolis;Virginia Beach;292.4
+Indianapolis;Oakland;1853.0
+Indianapolis;Minneapolis;450.0
+Indianapolis;Tulsa;1774.2
+Indianapolis;Arlington;2190.5
+Indianapolis;New Orleans;601.9
+Seattle;New York;155.6
+Seattle;Los Angeles;465.3
+Seattle;Chicago;1489.3
+Seattle;Houston;1903.5
+Seattle;Phoenix;1976.8
+Seattle;Philadelphia;1316.6
+Seattle;San Antonio;2605.9
+Seattle;San Diego;2635.7
+Seattle;Dallas;2151.9
+Seattle;San Jose;2458.9
+Seattle;Austin;1883.3
+Seattle;Jacksonville;444.6
+Seattle;Fort Worth;2752.8
+Seattle;Columbus;1273.8
+Seattle;Charlotte;2131.3
+Seattle;San Francisco;502.9
+Seattle;Indianapolis;1814.9
+Seattle;Denver;1821.0
+Seattle;Washington;1499.4
+Seattle;Boston;1392.6
+Seattle;El Paso;495.9
+Seattle;Nashville;2269.4
+Seattle;Detroit;2495.0
+Seattle;Oklahoma City;2124.2
+Seattle;Portland;1846.1
+Seattle;Las Vegas;1145.4
+Seattle;Memphis;407.0
+Seattle;Louisville;544.0
+Seattle;Baltimore;1934.3
+Seattle;Milwaukee;365.8
+Seattle;Albuquerque;566.9
+Seattle;Tucson;2937.9
+Seattle;Fresno;2045.5
+Seattle;Mesa;890.2
+Seattle;Sacramento;2067.8
+Seattle;Atlanta;410.3
+Seattle;Kansas City;2737.7
+Seattle;Colorado Springs;509.5
+Seattle;Miami;1334.9
+Seattle;Raleigh;1223.3
+Seattle;Omaha;1903.8
+Seattle;Long Beach;2428.7
+Seattle;Virginia Beach;823.2
+Seattle;Oakland;478.4
+Seattle;Minneapolis;1355.3
+Seattle;Tulsa;2075.4
+Seattle;Arlington;130.2
+Seattle;New Orleans;2841.7
+Denver;New York;2385.5
+Denver;Los Angeles;1737.7
+Denver;Chicago;2607.8
+Denver;Houston;2477.7
+Denver;Phoenix;2898.3
+Denver;Philadelphia;1849.2
+Denver;San Antonio;2133.2
+Denver;San Diego;983.3
+Denver;Dallas;2275.2
+Denver;San Jose;59.8
+Denver;Austin;1450.3
+Denver;Jacksonville;417.2
+Denver;Fort Worth;943.4
+Denver;Columbus;1940.1
+Denver;Charlotte;2388.0
+Denver;San Francisco;2561.1
+Denver;Indianapolis;2240.9
+Denver;Seattle;2331.3
+Denver;Washington;1604.3
+Denver;Boston;495.3
+Denver;El Paso;2239.7
+Denver;Nashville;1694.8
+Denver;Detroit;1899.8
+Denver;Oklahoma City;219.7
+Denver;Portland;660.5
+Denver;Las Vegas;1485.5
+Denver;Memphis;2074.5
+Denver;Louisville;1820.4
+Denver;Baltimore;2225.2
+Denver;Milwaukee;646.3
+Denver;Albuquerque;1912.3
+Denver;Tucson;2679.5
+Denver;Fresno;828.4
+Denver;Mesa;1972.4
+Denver;Sacramento;2950.5
+Denver;Atlanta;2079.8
+Denver;Kansas City;1522.9
+Denver;Colorado Springs;1027.7
+Denver;Miami;1754.1
+Denver;Raleigh;925.5
+Denver;Omaha;2031.6
+Denver;Long Beach;734.2
+Denver;Virginia Beach;174.4
+Denver;Oakland;648.2
+Denver;Minneapolis;757.0
+Denver;Tulsa;2603.7
+Denver;Arlington;2653.0
+Denver;New Orleans;1872.6
+Washington;New York;1560.8
+Washington;Los Angeles;888.8
+Washington;Chicago;60.9
+Washington;Houston;2249.5
+Washington;Phoenix;2655.7
+Washington;Philadelphia;809.2
+Washington;San Antonio;702.5
+Washington;San Diego;1056.9
+Washington;Dallas;891.5
+Washington;San Jose;605.1
+Washington;Austin;341.6
+Washington;Jacksonville;2484.6
+Washington;Fort Worth;2744.1
+Washington;Columbus;2794.4
+Washington;Charlotte;797.4
+Washington;San Francisco;2453.0
+Washington;Indianapolis;1063.1
+Washington;Seattle;240.4
+Washington;Denver;2365.5
+Washington;Boston;2418.4
+Washington;El Paso;1924.2
+Washington;Nashville;1161.3
+Washington;Detroit;2529.8
+Washington;Oklahoma City;2833.8
+Washington;Portland;263.4
+Washington;Las Vegas;2953.1
+Washington;Memphis;1163.4
+Washington;Louisville;2082.1
+Washington;Baltimore;1386.6
+Washington;Milwaukee;2469.3
+Washington;Albuquerque;1061.2
+Washington;Tucson;153.7
+Washington;Fresno;463.3
+Washington;Mesa;690.9
+Washington;Sacramento;2270.2
+Washington;Atlanta;2672.5
+Washington;Kansas City;1981.0
+Washington;Colorado Springs;614.9
+Washington;Miami;222.8
+Washington;Raleigh;2866.5
+Washington;Omaha;1053.7
+Washington;Long Beach;1361.7
+Washington;Virginia Beach;1024.5
+Washington;Oakland;2144.5
+Washington;Minneapolis;2032.2
+Washington;Tulsa;717.9
+Washington;Arlington;2608.2
+Washington;New Orleans;1803.5
+Boston;New York;1586.7
+Boston;Los Angeles;2681.2
+Boston;Chicago;2250.8
+Boston;Houston;1783.1
+Boston;Phoenix;2754.7
+Boston;Philadelphia;1423.6
+Boston;San Antonio;1167.7
+Boston;San Diego;79.9
+Boston;Dallas;904.5
+Boston;San Jose;1659.6
+Boston;Austin;2970.7
+Boston;Jacksonville;2405.2
+Boston;Fort Worth;539.1
+Boston;Columbus;2778.9
+Boston;Charlotte;203.9
+Boston;San Francisco;1181.3
+Boston;Indianapolis;2080.0
+Boston;Seattle;974.5
+Boston;Denver;70.9
+Boston;Washington;380.8
+Boston;El Paso;71.9
+Boston;Nashville;962.1
+Boston;Detroit;2080.8
+Boston;Oklahoma City;820.0
+Boston;Portland;1343.6
+Boston;Las Vegas;2587.7
+Boston;Memphis;2581.5
+Boston;Louisville;118.6
+Boston;Baltimore;1783.5
+Boston;Milwaukee;2571.6
+Boston;Albuquerque;2502.1
+Boston;Tucson;1425.6
+Boston;Fresno;2826.9
+Boston;Mesa;188.6
+Boston;Sacramento;1357.5
+Boston;Atlanta;2496.2
+Boston;Kansas City;1886.6
+Boston;Colorado Springs;483.4
+Boston;Miami;185.8
+Boston;Raleigh;1912.4
+Boston;Omaha;1642.6
+Boston;Long Beach;2030.4
+Boston;Virginia Beach;544.5
+Boston;Oakland;1420.3
+Boston;Minneapolis;223.9
+Boston;Tulsa;631.0
+Boston;Arlington;1695.6
+Boston;New Orleans;1318.1
+El Paso;New York;2286.4
+El Paso;Los Angeles;2758.3
+El Paso;Chicago;2476.9
+El Paso;Houston;1893.2
+El Paso;Phoenix;1894.7
+El Paso;Philadelphia;367.8
+El Paso;San Antonio;2001.7
+El Paso;San Diego;220.0
+El Paso;Dallas;134.0
+El Paso;San Jose;1136.4
+El Paso;Austin;1901.8
+El Paso;Jacksonville;2869.7
+El Paso;Fort Worth;211.4
+El Paso;Columbus;1657.9
+El Paso;Charlotte;1879.9
+El Paso;San Francisco;1706.4
+El Paso;Indianapolis;1045.6
+El Paso;Seattle;1434.6
+El Paso;Denver;1168.9
+El Paso;Washington;2605.1
+El Paso;Boston;1964.8
+El Paso;Nashville;2557.3
+El Paso;Detroit;2326.7
+El Paso;Oklahoma City;2616.6
+El Paso;Portland;474.1
+El Paso;Las Vegas;669.0
+El Paso;Memphis;2769.6
+El Paso;Louisville;2726.1
+El Paso;Baltimore;807.0
+El Paso;Milwaukee;1598.5
+El Paso;Albuquerque;1653.2
+El Paso;Tucson;65.2
+El Paso;Fresno;1922.1
+El Paso;Mesa;1127.1
+El Paso;Sacramento;493.7
+El Paso;Atlanta;1306.0
+El Paso;Kansas City;875.3
+El Paso;Colorado Springs;1403.3
+El Paso;Miami;1958.0
+El Paso;Raleigh;2843.8
+El Paso;Omaha;2836.4
+El Paso;Long Beach;1840.8
+El Paso;Virginia Beach;2700.2
+El Paso;Oakland;914.9
+El Paso;Minneapolis;2908.6
+El Paso;Tulsa;1049.0
+El Paso;Arlington;2422.9
+El Paso;New Orleans;2178.9
+Nashville;New York;428.1
+Nashville;Los Angeles;545.7
+Nashville;Chicago;629.4
+Nashville;Houston;685.6
+Nashville;Phoenix;2970.5
+Nashville;Philadelphia;2722.4
+Nashville;San Antonio;1005.0
+Nashville;San Diego;2417.9
+Nashville;Dallas;211.3
+Nashville;San Jose;1947.3
+Nashville;Austin;2192.1
+Nashville;Jacksonville;71.3
+Nashville;Fort Worth;2505.5
+Nashville;Columbus;664.8
+Nashville;Charlotte;1366.7
+Nashville;San Francisco;1087.0
+Nashville;Indianapolis;1453.9
+Nashville;Seattle;2565.2
+Nashville;Denver;1769.6
+Nashville;Washington;2941.3
+Nashville;Boston;610.0
+Nashville;El Paso;1077.1
+Nashville;Detroit;1304.3
+Nashville;Oklahoma City;2998.1
+Nashville;Portland;454.5
+Nashville;Las Vegas;619.6
+Nashville;Memphis;256.0
+Nashville;Louisville;588.8
+Nashville;Baltimore;72.3
+Nashville;Milwaukee;1456.9
+Nashville;Albuquerque;767.8
+Nashville;Tucson;276.4
+Nashville;Fresno;2641.4
+Nashville;Mesa;1682.1
+Nashville;Sacramento;1209.4
+Nashville;Atlanta;1674.5
+Nashville;Kansas City;797.0
+Nashville;Colorado Springs;2800.6
+Nashville;Miami;1592.1
+Nashville;Raleigh;2266.6
+Nashville;Omaha;1821.6
+Nashville;Long Beach;1789.0
+Nashville;Virginia Beach;1155.6
+Nashville;Oakland;2743.6
+Nashville;Minneapolis;2298.1
+Nashville;Tulsa;711.0
+Nashville;Arlington;2564.3
+Nashville;New Orleans;1235.3
+Detroit;New York;1611.9
+Detroit;Los Angeles;1049.3
+Detroit;Chicago;385.2
+Detroit;Houston;2932.2
+Detroit;Phoenix;2090.4
+Detroit;Philadelphia;2066.1
+Detroit;San Antonio;2380.4
+Detroit;San Diego;161.1
+Detroit;Dallas;2175.0
+Detroit;San Jose;1491.1
+Detroit;Austin;1237.7
+Detroit;Jacksonville;383.4
+Detroit;Fort Worth;1861.6
+Detroit;Columbus;1816.7
+Detroit;Charlotte;2238.8
+Detroit;San Francisco;1557.4
+Detroit;Indianapolis;491.3
+Detroit;Seattle;103.2
+Detroit;Denver;1221.3
+Detroit;Washington;2627.7
+Detroit;Boston;2483.3
+Detroit;El Paso;383.9
+Detroit;Nashville;1524.2
+Detroit;Oklahoma City;1670.3
+Detroit;Portland;2127.3
+Detroit;Las Vegas;156.6
+Detroit;Memphis;1639.6
+Detroit;Louisville;1847.5
+Detroit;Baltimore;640.3
+Detroit;Milwaukee;1262.4
+Detroit;Albuquerque;1260.9
+Detroit;Tucson;352.0
+Detroit;Fresno;2688.9
+Detroit;Mesa;1857.5
+Detroit;Sacramento;466.6
+Detroit;Atlanta;463.8
+Detroit;Kansas City;2294.7
+Detroit;Colorado Springs;2831.2
+Detroit;Miami;2116.7
+Detroit;Raleigh;2649.6
+Detroit;Omaha;1635.7
+Detroit;Long Beach;2413.9
+Detroit;Virginia Beach;2036.7
+Detroit;Oakland;2607.0
+Detroit;Minneapolis;1823.2
+Detroit;Tulsa;2745.5
+Detroit;Arlington;1138.2
+Detroit;New Orleans;948.7
+Oklahoma City;New York;2140.1
+Oklahoma City;Los Angeles;2790.2
+Oklahoma City;Chicago;2509.8
+Oklahoma City;Houston;2897.2
+Oklahoma City;Phoenix;186.8
+Oklahoma City;Philadelphia;300.4
+Oklahoma City;San Antonio;180.0
+Oklahoma City;San Diego;1261.7
+Oklahoma City;Dallas;225.8
+Oklahoma City;San Jose;2474.7
+Oklahoma City;Austin;2239.0
+Oklahoma City;Jacksonville;1991.8
+Oklahoma City;Fort Worth;2945.7
+Oklahoma City;Columbus;2068.5
+Oklahoma City;Charlotte;226.9
+Oklahoma City;San Francisco;523.2
+Oklahoma City;Indianapolis;1213.9
+Oklahoma City;Seattle;2499.9
+Oklahoma City;Denver;1696.5
+Oklahoma City;Washington;986.1
+Oklahoma City;Boston;2829.4
+Oklahoma City;El Paso;744.0
+Oklahoma City;Nashville;1220.6
+Oklahoma City;Detroit;1633.1
+Oklahoma City;Portland;2246.1
+Oklahoma City;Las Vegas;643.1
+Oklahoma City;Memphis;2591.5
+Oklahoma City;Louisville;749.2
+Oklahoma City;Baltimore;2909.9
+Oklahoma City;Milwaukee;600.9
+Oklahoma City;Albuquerque;1531.8
+Oklahoma City;Tucson;140.5
+Oklahoma City;Fresno;1839.6
+Oklahoma City;Mesa;914.2
+Oklahoma City;Sacramento;415.0
+Oklahoma City;Atlanta;1081.5
+Oklahoma City;Kansas City;1840.3
+Oklahoma City;Colorado Springs;2931.7
+Oklahoma City;Miami;576.8
+Oklahoma City;Raleigh;2149.3
+Oklahoma City;Omaha;606.4
+Oklahoma City;Long Beach;289.0
+Oklahoma City;Virginia Beach;1745.8
+Oklahoma City;Oakland;2754.0
+Oklahoma City;Minneapolis;1120.0
+Oklahoma City;Tulsa;417.5
+Oklahoma City;Arlington;2687.8
+Oklahoma City;New Orleans;771.2
+Portland;New York;403.2
+Portland;Los Angeles;833.7
+Portland;Chicago;2969.6
+Portland;Houston;2262.4
+Portland;Phoenix;759.6
+Portland;Philadelphia;1038.6
+Portland;San Antonio;2942.6
+Portland;San Diego;1654.8
+Portland;Dallas;1989.1
+Portland;San Jose;2025.4
+Portland;Austin;1710.8
+Portland;Jacksonville;2707.4
+Portland;Fort Worth;1779.0
+Portland;Columbus;2936.4
+Portland;Charlotte;1824.1
+Portland;San Francisco;2053.6
+Portland;Indianapolis;2343.8
+Portland;Seattle;867.6
+Portland;Denver;1853.6
+Portland;Washington;2771.3
+Portland;Boston;1340.3
+Portland;El Paso;732.3
+Portland;Nashville;868.3
+Portland;Detroit;140.8
+Portland;Oklahoma City;2349.9
+Portland;Las Vegas;641.6
+Portland;Memphis;1968.6
+Portland;Louisville;140.2
+Portland;Baltimore;265.4
+Portland;Milwaukee;2358.3
+Portland;Albuquerque;2444.3
+Portland;Tucson;1608.2
+Portland;Fresno;2807.5
+Portland;Mesa;1233.9
+Portland;Sacramento;1282.5
+Portland;Atlanta;2706.7
+Portland;Kansas City;1125.2
+Portland;Colorado Springs;499.4
+Portland;Miami;2463.4
+Portland;Raleigh;1960.1
+Portland;Omaha;2781.5
+Portland;Long Beach;2609.5
+Portland;Virginia Beach;2617.9
+Portland;Oakland;2053.6
+Portland;Minneapolis;2744.5
+Portland;Tulsa;1127.8
+Portland;Arlington;514.5
+Portland;New Orleans;1466.6
+Las Vegas;New York;2522.9
+Las Vegas;Los Angeles;2200.7
+Las Vegas;Chicago;1308.6
+Las Vegas;Houston;1960.9
+Las Vegas;Phoenix;592.4
+Las Vegas;Philadelphia;883.6
+Las Vegas;San Antonio;1299.3
+Las Vegas;San Diego;1700.7
+Las Vegas;Dallas;76.8
+Las Vegas;San Jose;246.4
+Las Vegas;Austin;2527.7
+Las Vegas;Jacksonville;1848.2
+Las Vegas;Fort Worth;2610.3
+Las Vegas;Columbus;1387.4
+Las Vegas;Charlotte;1135.3
+Las Vegas;San Francisco;1112.8
+Las Vegas;Indianapolis;1598.9
+Las Vegas;Seattle;1908.2
+Las Vegas;Denver;1835.2
+Las Vegas;Washington;2244.6
+Las Vegas;Boston;1156.5
+Las Vegas;El Paso;2862.8
+Las Vegas;Nashville;1081.7
+Las Vegas;Detroit;1121.9
+Las Vegas;Oklahoma City;1380.1
+Las Vegas;Portland;1941.0
+Las Vegas;Memphis;645.5
+Las Vegas;Louisville;1938.7
+Las Vegas;Baltimore;728.5
+Las Vegas;Milwaukee;850.6
+Las Vegas;Albuquerque;1811.3
+Las Vegas;Tucson;504.1
+Las Vegas;Fresno;1482.9
+Las Vegas;Mesa;1449.7
+Las Vegas;Sacramento;1739.4
+Las Vegas;Atlanta;93.4
+Las Vegas;Kansas City;1006.8
+Las Vegas;Colorado Springs;1804.8
+Las Vegas;Miami;357.5
+Las Vegas;Raleigh;249.8
+Las Vegas;Omaha;530.1
+Las Vegas;Long Beach;1675.5
+Las Vegas;Virginia Beach;1497.1
+Las Vegas;Oakland;2078.8
+Las Vegas;Minneapolis;2940.8
+Las Vegas;Tulsa;1565.9
+Las Vegas;Arlington;2900.6
+Las Vegas;New Orleans;2618.9
+Memphis;New York;1160.9
+Memphis;Los Angeles;760.6
+Memphis;Chicago;2883.2
+Memphis;Houston;295.2
+Memphis;Phoenix;2992.8
+Memphis;Philadelphia;2415.9
+Memphis;San Antonio;1873.2
+Memphis;San Diego;1712.9
+Memphis;Dallas;1393.7
+Memphis;San Jose;571.4
+Memphis;Austin;1122.9
+Memphis;Jacksonville;373.5
+Memphis;Fort Worth;369.7
+Memphis;Columbus;461.1
+Memphis;Charlotte;2921.4
+Memphis;San Francisco;1064.4
+Memphis;Indianapolis;2362.3
+Memphis;Seattle;304.3
+Memphis;Denver;1776.5
+Memphis;Washington;1312.1
+Memphis;Boston;546.2
+Memphis;El Paso;2718.7
+Memphis;Nashville;774.6
+Memphis;Detroit;1435.6
+Memphis;Oklahoma City;1886.2
+Memphis;Portland;2866.7
+Memphis;Las Vegas;1825.3
+Memphis;Louisville;2932.8
+Memphis;Baltimore;519.3
+Memphis;Milwaukee;2916.7
+Memphis;Albuquerque;768.6
+Memphis;Tucson;941.9
+Memphis;Fresno;754.4
+Memphis;Mesa;2326.3
+Memphis;Sacramento;163.9
+Memphis;Atlanta;903.3
+Memphis;Kansas City;2019.7
+Memphis;Colorado Springs;2479.2
+Memphis;Miami;2571.5
+Memphis;Raleigh;2838.8
+Memphis;Omaha;2583.4
+Memphis;Long Beach;2797.4
+Memphis;Virginia Beach;1496.5
+Memphis;Oakland;1685.3
+Memphis;Minneapolis;816.4
+Memphis;Tulsa;2000.9
+Memphis;Arlington;2637.5
+Memphis;New Orleans;1741.4
+Louisville;New York;291.4
+Louisville;Los Angeles;2359.8
+Louisville;Chicago;1061.5
+Louisville;Houston;1879.9
+Louisville;Phoenix;767.5
+Louisville;Philadelphia;2975.8
+Louisville;San Antonio;2154.7
+Louisville;San Diego;519.0
+Louisville;Dallas;751.5
+Louisville;San Jose;1171.8
+Louisville;Austin;951.4
+Louisville;Jacksonville;782.2
+Louisville;Fort Worth;2985.1
+Louisville;Columbus;1618.2
+Louisville;Charlotte;2266.9
+Louisville;San Francisco;1659.0
+Louisville;Indianapolis;2844.3
+Louisville;Seattle;956.0
+Louisville;Denver;1312.2
+Louisville;Washington;2165.0
+Louisville;Boston;2083.3
+Louisville;El Paso;401.3
+Louisville;Nashville;2664.0
+Louisville;Detroit;250.2
+Louisville;Oklahoma City;272.7
+Louisville;Portland;770.1
+Louisville;Las Vegas;1825.3
+Louisville;Memphis;151.7
+Louisville;Baltimore;2608.9
+Louisville;Milwaukee;2640.8
+Louisville;Albuquerque;432.1
+Louisville;Tucson;2543.0
+Louisville;Fresno;733.2
+Louisville;Mesa;2083.6
+Louisville;Sacramento;2361.0
+Louisville;Atlanta;1921.6
+Louisville;Kansas City;662.8
+Louisville;Colorado Springs;1988.7
+Louisville;Miami;621.5
+Louisville;Raleigh;601.2
+Louisville;Omaha;2186.5
+Louisville;Long Beach;2862.2
+Louisville;Virginia Beach;1702.2
+Louisville;Oakland;2054.0
+Louisville;Minneapolis;1637.8
+Louisville;Tulsa;2972.7
+Louisville;Arlington;1464.1
+Louisville;New Orleans;1856.7
+Baltimore;New York;1867.8
+Baltimore;Los Angeles;1249.5
+Baltimore;Chicago;1108.0
+Baltimore;Houston;1048.9
+Baltimore;Phoenix;2118.7
+Baltimore;Philadelphia;450.2
+Baltimore;San Antonio;1206.9
+Baltimore;San Diego;183.9
+Baltimore;Dallas;293.4
+Baltimore;San Jose;2838.4
+Baltimore;Austin;2265.3
+Baltimore;Jacksonville;2514.8
+Baltimore;Fort Worth;1998.4
+Baltimore;Columbus;148.7
+Baltimore;Charlotte;670.2
+Baltimore;San Francisco;730.3
+Baltimore;Indianapolis;1373.9
+Baltimore;Seattle;587.8
+Baltimore;Denver;2199.9
+Baltimore;Washington;1409.4
+Baltimore;Boston;940.6
+Baltimore;El Paso;1896.0
+Baltimore;Nashville;799.9
+Baltimore;Detroit;2380.5
+Baltimore;Oklahoma City;1188.7
+Baltimore;Portland;2820.0
+Baltimore;Las Vegas;2507.9
+Baltimore;Memphis;1914.5
+Baltimore;Louisville;2113.7
+Baltimore;Milwaukee;731.6
+Baltimore;Albuquerque;1400.4
+Baltimore;Tucson;2270.4
+Baltimore;Fresno;188.7
+Baltimore;Mesa;2777.3
+Baltimore;Sacramento;2639.6
+Baltimore;Atlanta;2628.9
+Baltimore;Kansas City;977.0
+Baltimore;Colorado Springs;2799.1
+Baltimore;Miami;296.9
+Baltimore;Raleigh;2270.7
+Baltimore;Omaha;1364.5
+Baltimore;Long Beach;1815.2
+Baltimore;Virginia Beach;1926.5
+Baltimore;Oakland;1159.8
+Baltimore;Minneapolis;2261.5
+Baltimore;Tulsa;1538.7
+Baltimore;Arlington;874.2
+Baltimore;New Orleans;2719.7
+Milwaukee;New York;2755.6
+Milwaukee;Los Angeles;2478.4
+Milwaukee;Chicago;918.9
+Milwaukee;Houston;2269.6
+Milwaukee;Phoenix;1388.8
+Milwaukee;Philadelphia;1276.3
+Milwaukee;San Antonio;1600.6
+Milwaukee;San Diego;1613.9
+Milwaukee;Dallas;2763.5
+Milwaukee;San Jose;2204.7
+Milwaukee;Austin;1664.9
+Milwaukee;Jacksonville;648.3
+Milwaukee;Fort Worth;1847.5
+Milwaukee;Columbus;66.4
+Milwaukee;Charlotte;1850.4
+Milwaukee;San Francisco;2187.9
+Milwaukee;Indianapolis;1956.2
+Milwaukee;Seattle;1522.9
+Milwaukee;Denver;2795.4
+Milwaukee;Washington;2051.6
+Milwaukee;Boston;2105.1
+Milwaukee;El Paso;198.2
+Milwaukee;Nashville;1653.8
+Milwaukee;Detroit;1819.2
+Milwaukee;Oklahoma City;214.7
+Milwaukee;Portland;522.2
+Milwaukee;Las Vegas;2338.7
+Milwaukee;Memphis;2914.5
+Milwaukee;Louisville;2284.2
+Milwaukee;Baltimore;1552.3
+Milwaukee;Albuquerque;2834.7
+Milwaukee;Tucson;1299.3
+Milwaukee;Fresno;916.3
+Milwaukee;Mesa;2203.2
+Milwaukee;Sacramento;1806.2
+Milwaukee;Atlanta;755.5
+Milwaukee;Kansas City;452.6
+Milwaukee;Colorado Springs;1184.9
+Milwaukee;Miami;1349.9
+Milwaukee;Raleigh;2104.9
+Milwaukee;Omaha;1854.4
+Milwaukee;Long Beach;718.4
+Milwaukee;Virginia Beach;1882.6
+Milwaukee;Oakland;1179.8
+Milwaukee;Minneapolis;1479.2
+Milwaukee;Tulsa;1411.5
+Milwaukee;Arlington;2650.3
+Milwaukee;New Orleans;1633.0
+Albuquerque;New York;2567.7
+Albuquerque;Los Angeles;1954.0
+Albuquerque;Chicago;2000.2
+Albuquerque;Houston;1961.1
+Albuquerque;Phoenix;2692.2
+Albuquerque;Philadelphia;1383.0
+Albuquerque;San Antonio;785.6
+Albuquerque;San Diego;1677.6
+Albuquerque;Dallas;280.2
+Albuquerque;San Jose;2332.2
+Albuquerque;Austin;338.1
+Albuquerque;Jacksonville;2615.0
+Albuquerque;Fort Worth;1780.0
+Albuquerque;Columbus;1252.1
+Albuquerque;Charlotte;1114.3
+Albuquerque;San Francisco;2594.6
+Albuquerque;Indianapolis;834.8
+Albuquerque;Seattle;451.1
+Albuquerque;Denver;2726.5
+Albuquerque;Washington;2182.0
+Albuquerque;Boston;1175.3
+Albuquerque;El Paso;1415.6
+Albuquerque;Nashville;1392.5
+Albuquerque;Detroit;1695.1
+Albuquerque;Oklahoma City;1604.7
+Albuquerque;Portland;903.6
+Albuquerque;Las Vegas;1783.9
+Albuquerque;Memphis;2204.4
+Albuquerque;Louisville;652.5
+Albuquerque;Baltimore;2994.9
+Albuquerque;Milwaukee;481.5
+Albuquerque;Tucson;465.4
+Albuquerque;Fresno;998.8
+Albuquerque;Mesa;450.6
+Albuquerque;Sacramento;2154.8
+Albuquerque;Atlanta;1100.4
+Albuquerque;Kansas City;1103.5
+Albuquerque;Colorado Springs;2222.6
+Albuquerque;Miami;1370.1
+Albuquerque;Raleigh;2435.5
+Albuquerque;Omaha;2083.1
+Albuquerque;Long Beach;2831.6
+Albuquerque;Virginia Beach;1849.3
+Albuquerque;Oakland;2566.0
+Albuquerque;Minneapolis;448.0
+Albuquerque;Tulsa;1271.8
+Albuquerque;Arlington;376.7
+Albuquerque;New Orleans;787.0
+Tucson;New York;1133.1
+Tucson;Los Angeles;430.3
+Tucson;Chicago;2587.5
+Tucson;Houston;501.0
+Tucson;Phoenix;108.8
+Tucson;Philadelphia;1868.8
+Tucson;San Antonio;2275.1
+Tucson;San Diego;428.7
+Tucson;Dallas;2668.9
+Tucson;San Jose;1885.3
+Tucson;Austin;1249.4
+Tucson;Jacksonville;2082.1
+Tucson;Fort Worth;980.2
+Tucson;Columbus;1456.5
+Tucson;Charlotte;1207.8
+Tucson;San Francisco;2666.5
+Tucson;Indianapolis;933.4
+Tucson;Seattle;944.3
+Tucson;Denver;507.9
+Tucson;Washington;430.0
+Tucson;Boston;1557.5
+Tucson;El Paso;1717.6
+Tucson;Nashville;2589.1
+Tucson;Detroit;1636.5
+Tucson;Oklahoma City;331.2
+Tucson;Portland;2957.0
+Tucson;Las Vegas;1850.7
+Tucson;Memphis;2678.3
+Tucson;Louisville;496.1
+Tucson;Baltimore;741.5
+Tucson;Milwaukee;544.2
+Tucson;Albuquerque;1566.5
+Tucson;Fresno;2853.6
+Tucson;Mesa;2541.4
+Tucson;Sacramento;2218.5
+Tucson;Atlanta;62.2
+Tucson;Kansas City;660.1
+Tucson;Colorado Springs;1262.6
+Tucson;Miami;330.7
+Tucson;Raleigh;727.2
+Tucson;Omaha;2833.5
+Tucson;Long Beach;1426.2
+Tucson;Virginia Beach;1644.9
+Tucson;Oakland;1592.3
+Tucson;Minneapolis;745.0
+Tucson;Tulsa;1559.9
+Tucson;Arlington;2269.6
+Tucson;New Orleans;899.6
+Fresno;New York;2821.4
+Fresno;Los Angeles;1749.4
+Fresno;Chicago;592.2
+Fresno;Houston;2338.1
+Fresno;Phoenix;109.8
+Fresno;Philadelphia;2514.9
+Fresno;San Antonio;2398.7
+Fresno;San Diego;2933.9
+Fresno;Dallas;408.6
+Fresno;San Jose;952.9
+Fresno;Austin;1791.2
+Fresno;Jacksonville;1854.7
+Fresno;Fort Worth;2418.6
+Fresno;Columbus;1802.6
+Fresno;Charlotte;981.3
+Fresno;San Francisco;2696.9
+Fresno;Indianapolis;1206.2
+Fresno;Seattle;1943.1
+Fresno;Denver;2757.4
+Fresno;Washington;222.0
+Fresno;Boston;68.6
+Fresno;El Paso;2583.5
+Fresno;Nashville;722.2
+Fresno;Detroit;1593.7
+Fresno;Oklahoma City;1597.1
+Fresno;Portland;69.6
+Fresno;Las Vegas;2044.8
+Fresno;Memphis;1049.6
+Fresno;Louisville;2541.6
+Fresno;Baltimore;579.2
+Fresno;Milwaukee;2951.9
+Fresno;Albuquerque;1783.0
+Fresno;Tucson;904.5
+Fresno;Mesa;2687.4
+Fresno;Sacramento;891.3
+Fresno;Atlanta;587.8
+Fresno;Kansas City;1310.5
+Fresno;Colorado Springs;2530.7
+Fresno;Miami;1675.5
+Fresno;Raleigh;2599.6
+Fresno;Omaha;478.3
+Fresno;Long Beach;345.5
+Fresno;Virginia Beach;1411.1
+Fresno;Oakland;183.2
+Fresno;Minneapolis;865.7
+Fresno;Tulsa;180.2
+Fresno;Arlington;2939.7
+Fresno;New Orleans;593.8
+Mesa;New York;2541.2
+Mesa;Los Angeles;279.8
+Mesa;Chicago;2522.6
+Mesa;Houston;135.8
+Mesa;Phoenix;2360.5
+Mesa;Philadelphia;2364.9
+Mesa;San Antonio;161.2
+Mesa;San Diego;2147.3
+Mesa;Dallas;585.0
+Mesa;San Jose;1884.5
+Mesa;Austin;875.1
+Mesa;Jacksonville;1153.9
+Mesa;Fort Worth;1958.8
+Mesa;Columbus;152.2
+Mesa;Charlotte;2868.1
+Mesa;San Francisco;2141.4
+Mesa;Indianapolis;463.9
+Mesa;Seattle;2879.3
+Mesa;Denver;1534.1
+Mesa;Washington;1320.0
+Mesa;Boston;2176.8
+Mesa;El Paso;796.0
+Mesa;Nashville;1244.1
+Mesa;Detroit;2869.6
+Mesa;Oklahoma City;2393.6
+Mesa;Portland;2128.0
+Mesa;Las Vegas;2960.9
+Mesa;Memphis;2863.9
+Mesa;Louisville;187.2
+Mesa;Baltimore;895.7
+Mesa;Milwaukee;493.7
+Mesa;Albuquerque;2037.4
+Mesa;Tucson;450.1
+Mesa;Fresno;1200.6
+Mesa;Sacramento;2097.6
+Mesa;Atlanta;1803.4
+Mesa;Kansas City;973.8
+Mesa;Colorado Springs;1442.9
+Mesa;Miami;2687.5
+Mesa;Raleigh;1015.1
+Mesa;Omaha;295.6
+Mesa;Long Beach;2682.8
+Mesa;Virginia Beach;551.6
+Mesa;Oakland;2075.5
+Mesa;Minneapolis;305.0
+Mesa;Tulsa;968.0
+Mesa;Arlington;1905.0
+Mesa;New Orleans;959.4
+Sacramento;New York;2344.0
+Sacramento;Los Angeles;1395.0
+Sacramento;Chicago;107.9
+Sacramento;Houston;581.9
+Sacramento;Phoenix;142.1
+Sacramento;Philadelphia;576.8
+Sacramento;San Antonio;2918.9
+Sacramento;San Diego;1869.8
+Sacramento;Dallas;2714.8
+Sacramento;San Jose;475.2
+Sacramento;Austin;1137.9
+Sacramento;Jacksonville;2469.9
+Sacramento;Fort Worth;385.8
+Sacramento;Columbus;1717.1
+Sacramento;Charlotte;2145.8
+Sacramento;San Francisco;1020.3
+Sacramento;Indianapolis;89.6
+Sacramento;Seattle;979.5
+Sacramento;Denver;545.3
+Sacramento;Washington;1175.5
+Sacramento;Boston;2703.8
+Sacramento;El Paso;2564.6
+Sacramento;Nashville;1085.8
+Sacramento;Detroit;2981.4
+Sacramento;Oklahoma City;608.0
+Sacramento;Portland;2699.4
+Sacramento;Las Vegas;341.9
+Sacramento;Memphis;75.1
+Sacramento;Louisville;2869.0
+Sacramento;Baltimore;2960.7
+Sacramento;Milwaukee;110.6
+Sacramento;Albuquerque;1414.5
+Sacramento;Tucson;876.1
+Sacramento;Fresno;2002.4
+Sacramento;Mesa;2196.3
+Sacramento;Atlanta;1559.6
+Sacramento;Kansas City;2829.0
+Sacramento;Colorado Springs;1863.1
+Sacramento;Miami;2627.3
+Sacramento;Raleigh;2802.0
+Sacramento;Omaha;1863.4
+Sacramento;Long Beach;1999.7
+Sacramento;Virginia Beach;161.5
+Sacramento;Oakland;373.3
+Sacramento;Minneapolis;1726.6
+Sacramento;Tulsa;1746.4
+Sacramento;Arlington;2899.9
+Sacramento;New Orleans;1500.1
+Atlanta;New York;1535.5
+Atlanta;Los Angeles;282.2
+Atlanta;Chicago;2429.9
+Atlanta;Houston;2964.8
+Atlanta;Phoenix;1518.3
+Atlanta;Philadelphia;664.5
+Atlanta;San Antonio;1485.0
+Atlanta;San Diego;377.3
+Atlanta;Dallas;894.1
+Atlanta;San Jose;2484.0
+Atlanta;Austin;1433.4
+Atlanta;Jacksonville;329.4
+Atlanta;Fort Worth;863.0
+Atlanta;Columbus;2996.7
+Atlanta;Charlotte;2412.1
+Atlanta;San Francisco;1827.6
+Atlanta;Indianapolis;452.7
+Atlanta;Seattle;1797.5
+Atlanta;Denver;1544.1
+Atlanta;Washington;1845.3
+Atlanta;Boston;516.1
+Atlanta;El Paso;2687.0
+Atlanta;Nashville;2022.7
+Atlanta;Detroit;2380.0
+Atlanta;Oklahoma City;1699.5
+Atlanta;Portland;1218.8
+Atlanta;Las Vegas;544.1
+Atlanta;Memphis;259.8
+Atlanta;Louisville;2248.4
+Atlanta;Baltimore;361.0
+Atlanta;Milwaukee;2054.9
+Atlanta;Albuquerque;2865.8
+Atlanta;Tucson;736.2
+Atlanta;Fresno;1447.6
+Atlanta;Mesa;1043.5
+Atlanta;Sacramento;276.3
+Atlanta;Kansas City;2410.3
+Atlanta;Colorado Springs;1142.0
+Atlanta;Miami;1052.1
+Atlanta;Raleigh;2964.2
+Atlanta;Omaha;2750.5
+Atlanta;Long Beach;990.8
+Atlanta;Virginia Beach;1050.7
+Atlanta;Oakland;809.3
+Atlanta;Minneapolis;2893.6
+Atlanta;Tulsa;1019.7
+Atlanta;Arlington;2912.7
+Atlanta;New Orleans;887.9
+Kansas City;New York;2739.1
+Kansas City;Los Angeles;1516.9
+Kansas City;Chicago;2455.1
+Kansas City;Houston;831.5
+Kansas City;Phoenix;1403.3
+Kansas City;Philadelphia;1380.7
+Kansas City;San Antonio;1886.3
+Kansas City;San Diego;2906.1
+Kansas City;Dallas;2532.7
+Kansas City;San Jose;1113.5
+Kansas City;Austin;2580.1
+Kansas City;Jacksonville;1514.9
+Kansas City;Fort Worth;1112.6
+Kansas City;Columbus;917.5
+Kansas City;Charlotte;464.0
+Kansas City;San Francisco;2166.6
+Kansas City;Indianapolis;1466.1
+Kansas City;Seattle;2595.6
+Kansas City;Denver;1029.3
+Kansas City;Washington;2596.0
+Kansas City;Boston;2784.0
+Kansas City;El Paso;2074.7
+Kansas City;Nashville;2213.3
+Kansas City;Detroit;2684.8
+Kansas City;Oklahoma City;2091.0
+Kansas City;Portland;1483.2
+Kansas City;Las Vegas;2384.3
+Kansas City;Memphis;438.5
+Kansas City;Louisville;2988.7
+Kansas City;Baltimore;2902.8
+Kansas City;Milwaukee;2003.7
+Kansas City;Albuquerque;1172.7
+Kansas City;Tucson;671.4
+Kansas City;Fresno;1373.3
+Kansas City;Mesa;1703.1
+Kansas City;Sacramento;2248.2
+Kansas City;Atlanta;977.8
+Kansas City;Colorado Springs;1819.8
+Kansas City;Miami;1376.1
+Kansas City;Raleigh;2404.5
+Kansas City;Omaha;2405.9
+Kansas City;Long Beach;2349.5
+Kansas City;Virginia Beach;1862.0
+Kansas City;Oakland;675.3
+Kansas City;Minneapolis;2797.9
+Kansas City;Tulsa;2382.9
+Kansas City;Arlington;900.5
+Kansas City;New Orleans;2298.1
+Colorado Springs;New York;1199.9
+Colorado Springs;Los Angeles;1581.3
+Colorado Springs;Chicago;2233.0
+Colorado Springs;Houston;1066.3
+Colorado Springs;Phoenix;1546.7
+Colorado Springs;Philadelphia;2688.7
+Colorado Springs;San Antonio;714.6
+Colorado Springs;San Diego;1354.2
+Colorado Springs;Dallas;301.4
+Colorado Springs;San Jose;575.7
+Colorado Springs;Austin;472.1
+Colorado Springs;Jacksonville;2124.3
+Colorado Springs;Fort Worth;1171.3
+Colorado Springs;Columbus;2178.7
+Colorado Springs;Charlotte;109.1
+Colorado Springs;San Francisco;1702.1
+Colorado Springs;Indianapolis;1759.5
+Colorado Springs;Seattle;2939.0
+Colorado Springs;Denver;1102.0
+Colorado Springs;Washington;239.2
+Colorado Springs;Boston;2426.7
+Colorado Springs;El Paso;2538.7
+Colorado Springs;Nashville;1084.4
+Colorado Springs;Detroit;664.7
+Colorado Springs;Oklahoma City;2862.7
+Colorado Springs;Portland;1184.0
+Colorado Springs;Las Vegas;1418.9
+Colorado Springs;Memphis;2439.2
+Colorado Springs;Louisville;2787.3
+Colorado Springs;Baltimore;1719.0
+Colorado Springs;Milwaukee;1300.3
+Colorado Springs;Albuquerque;2840.9
+Colorado Springs;Tucson;387.0
+Colorado Springs;Fresno;2327.7
+Colorado Springs;Mesa;2855.4
+Colorado Springs;Sacramento;933.5
+Colorado Springs;Atlanta;1917.3
+Colorado Springs;Kansas City;221.5
+Colorado Springs;Miami;2747.7
+Colorado Springs;Raleigh;1637.2
+Colorado Springs;Omaha;2456.3
+Colorado Springs;Long Beach;1636.3
+Colorado Springs;Virginia Beach;2832.1
+Colorado Springs;Oakland;2454.5
+Colorado Springs;Minneapolis;1109.6
+Colorado Springs;Tulsa;1772.8
+Colorado Springs;Arlington;2104.2
+Colorado Springs;New Orleans;1128.5
+Miami;New York;2466.9
+Miami;Los Angeles;1481.9
+Miami;Chicago;845.5
+Miami;Houston;1879.4
+Miami;Phoenix;2839.3
+Miami;Philadelphia;1564.9
+Miami;San Antonio;136.8
+Miami;San Diego;688.9
+Miami;Dallas;1035.1
+Miami;San Jose;82.6
+Miami;Austin;2017.1
+Miami;Jacksonville;1248.7
+Miami;Fort Worth;1288.4
+Miami;Columbus;2133.2
+Miami;Charlotte;2170.5
+Miami;San Francisco;78.6
+Miami;Indianapolis;469.3
+Miami;Seattle;2362.8
+Miami;Denver;963.7
+Miami;Washington;2253.5
+Miami;Boston;363.4
+Miami;El Paso;2814.7
+Miami;Nashville;2814.6
+Miami;Detroit;791.2
+Miami;Oklahoma City;730.5
+Miami;Portland;1060.8
+Miami;Las Vegas;626.5
+Miami;Memphis;1057.0
+Miami;Louisville;1379.2
+Miami;Baltimore;428.3
+Miami;Milwaukee;2952.4
+Miami;Albuquerque;422.5
+Miami;Tucson;2454.1
+Miami;Fresno;866.3
+Miami;Mesa;530.0
+Miami;Sacramento;978.5
+Miami;Atlanta;731.9
+Miami;Kansas City;2666.1
+Miami;Colorado Springs;168.2
+Miami;Raleigh;1883.5
+Miami;Omaha;1934.7
+Miami;Long Beach;289.0
+Miami;Virginia Beach;2003.0
+Miami;Oakland;1739.8
+Miami;Minneapolis;973.9
+Miami;Tulsa;889.2
+Miami;Arlington;1623.7
+Miami;New Orleans;1065.1
+Raleigh;New York;1049.2
+Raleigh;Los Angeles;1593.5
+Raleigh;Chicago;738.7
+Raleigh;Houston;2340.6
+Raleigh;Phoenix;2309.0
+Raleigh;Philadelphia;334.7
+Raleigh;San Antonio;1448.1
+Raleigh;San Diego;2681.3
+Raleigh;Dallas;1708.2
+Raleigh;San Jose;2292.6
+Raleigh;Austin;1608.0
+Raleigh;Jacksonville;2099.0
+Raleigh;Fort Worth;1867.8
+Raleigh;Columbus;2496.8
+Raleigh;Charlotte;2905.2
+Raleigh;San Francisco;2087.0
+Raleigh;Indianapolis;2040.3
+Raleigh;Seattle;2346.3
+Raleigh;Denver;1328.3
+Raleigh;Washington;1061.1
+Raleigh;Boston;546.9
+Raleigh;El Paso;1925.5
+Raleigh;Nashville;409.1
+Raleigh;Detroit;692.9
+Raleigh;Oklahoma City;2995.9
+Raleigh;Portland;1097.2
+Raleigh;Las Vegas;883.1
+Raleigh;Memphis;1297.9
+Raleigh;Louisville;797.3
+Raleigh;Baltimore;2209.0
+Raleigh;Milwaukee;577.9
+Raleigh;Albuquerque;875.9
+Raleigh;Tucson;2811.4
+Raleigh;Fresno;1886.7
+Raleigh;Mesa;381.2
+Raleigh;Sacramento;2727.8
+Raleigh;Atlanta;2411.9
+Raleigh;Kansas City;1136.7
+Raleigh;Colorado Springs;1506.8
+Raleigh;Miami;2894.5
+Raleigh;Omaha;2940.2
+Raleigh;Long Beach;2110.3
+Raleigh;Virginia Beach;637.2
+Raleigh;Oakland;1903.6
+Raleigh;Minneapolis;2166.0
+Raleigh;Tulsa;1424.7
+Raleigh;Arlington;90.7
+Raleigh;New Orleans;2188.7
+Omaha;New York;1256.6
+Omaha;Los Angeles;63.1
+Omaha;Chicago;2781.1
+Omaha;Houston;1301.3
+Omaha;Phoenix;2271.0
+Omaha;Philadelphia;959.4
+Omaha;San Antonio;2881.9
+Omaha;San Diego;554.7
+Omaha;Dallas;364.9
+Omaha;San Jose;772.0
+Omaha;Austin;2491.3
+Omaha;Jacksonville;815.3
+Omaha;Fort Worth;2961.9
+Omaha;Columbus;159.9
+Omaha;Charlotte;2337.3
+Omaha;San Francisco;373.7
+Omaha;Indianapolis;1056.9
+Omaha;Seattle;1607.0
+Omaha;Denver;1117.1
+Omaha;Washington;1130.3
+Omaha;Boston;1152.0
+Omaha;El Paso;2253.3
+Omaha;Nashville;752.5
+Omaha;Detroit;1469.7
+Omaha;Oklahoma City;1598.6
+Omaha;Portland;914.8
+Omaha;Las Vegas;2897.2
+Omaha;Memphis;2554.5
+Omaha;Louisville;1829.2
+Omaha;Baltimore;1778.6
+Omaha;Milwaukee;1641.6
+Omaha;Albuquerque;1164.3
+Omaha;Tucson;2665.4
+Omaha;Fresno;300.0
+Omaha;Mesa;2252.8
+Omaha;Sacramento;1965.2
+Omaha;Atlanta;2486.0
+Omaha;Kansas City;1983.6
+Omaha;Colorado Springs;1635.4
+Omaha;Miami;577.7
+Omaha;Raleigh;539.2
+Omaha;Long Beach;1269.4
+Omaha;Virginia Beach;197.9
+Omaha;Oakland;1473.6
+Omaha;Minneapolis;2212.0
+Omaha;Tulsa;2641.2
+Omaha;Arlington;1230.1
+Omaha;New Orleans;1719.7
+Long Beach;New York;343.7
+Long Beach;Los Angeles;1914.6
+Long Beach;Chicago;73.2
+Long Beach;Houston;2262.9
+Long Beach;Phoenix;1729.9
+Long Beach;Philadelphia;1177.9
+Long Beach;San Antonio;654.9
+Long Beach;San Diego;118.8
+Long Beach;Dallas;544.2
+Long Beach;San Jose;2253.8
+Long Beach;Austin;692.8
+Long Beach;Jacksonville;2151.7
+Long Beach;Fort Worth;1096.8
+Long Beach;Columbus;2742.8
+Long Beach;Charlotte;73.5
+Long Beach;San Francisco;2327.5
+Long Beach;Indianapolis;70.6
+Long Beach;Seattle;2195.7
+Long Beach;Denver;1303.3
+Long Beach;Washington;1566.0
+Long Beach;Boston;2550.2
+Long Beach;El Paso;2141.8
+Long Beach;Nashville;1341.3
+Long Beach;Detroit;1449.0
+Long Beach;Oklahoma City;488.9
+Long Beach;Portland;2681.6
+Long Beach;Las Vegas;1335.2
+Long Beach;Memphis;1570.7
+Long Beach;Louisville;1164.6
+Long Beach;Baltimore;2465.3
+Long Beach;Milwaukee;2360.3
+Long Beach;Albuquerque;2124.2
+Long Beach;Tucson;2868.5
+Long Beach;Fresno;1005.1
+Long Beach;Mesa;2042.5
+Long Beach;Sacramento;427.8
+Long Beach;Atlanta;407.3
+Long Beach;Kansas City;1187.1
+Long Beach;Colorado Springs;228.6
+Long Beach;Miami;2036.7
+Long Beach;Raleigh;690.8
+Long Beach;Omaha;1118.7
+Long Beach;Virginia Beach;1975.6
+Long Beach;Oakland;1976.6
+Long Beach;Minneapolis;2443.3
+Long Beach;Tulsa;377.9
+Long Beach;Arlington;255.6
+Long Beach;New Orleans;2456.3
+Virginia Beach;New York;594.0
+Virginia Beach;Los Angeles;1769.9
+Virginia Beach;Chicago;2078.1
+Virginia Beach;Houston;1337.4
+Virginia Beach;Phoenix;415.9
+Virginia Beach;Philadelphia;1623.2
+Virginia Beach;San Antonio;315.3
+Virginia Beach;San Diego;2103.5
+Virginia Beach;Dallas;819.4
+Virginia Beach;San Jose;1753.4
+Virginia Beach;Austin;333.1
+Virginia Beach;Jacksonville;165.4
+Virginia Beach;Fort Worth;250.4
+Virginia Beach;Columbus;69.4
+Virginia Beach;Charlotte;1189.0
+Virginia Beach;San Francisco;946.7
+Virginia Beach;Indianapolis;194.0
+Virginia Beach;Seattle;2389.0
+Virginia Beach;Denver;2336.4
+Virginia Beach;Washington;2065.4
+Virginia Beach;Boston;2800.6
+Virginia Beach;El Paso;2956.9
+Virginia Beach;Nashville;1646.7
+Virginia Beach;Detroit;868.8
+Virginia Beach;Oklahoma City;839.4
+Virginia Beach;Portland;1255.6
+Virginia Beach;Las Vegas;194.7
+Virginia Beach;Memphis;2196.5
+Virginia Beach;Louisville;244.0
+Virginia Beach;Baltimore;1813.7
+Virginia Beach;Milwaukee;2994.4
+Virginia Beach;Albuquerque;1130.2
+Virginia Beach;Tucson;1923.8
+Virginia Beach;Fresno;250.9
+Virginia Beach;Mesa;1661.0
+Virginia Beach;Sacramento;1660.0
+Virginia Beach;Atlanta;608.0
+Virginia Beach;Kansas City;504.5
+Virginia Beach;Colorado Springs;420.7
+Virginia Beach;Miami;2026.0
+Virginia Beach;Raleigh;1997.0
+Virginia Beach;Omaha;2463.0
+Virginia Beach;Long Beach;2778.0
+Virginia Beach;Oakland;192.4
+Virginia Beach;Minneapolis;2552.9
+Virginia Beach;Tulsa;674.8
+Virginia Beach;Arlington;1862.6
+Virginia Beach;New Orleans;785.6
+Oakland;New York;1143.4
+Oakland;Los Angeles;2137.3
+Oakland;Chicago;1433.7
+Oakland;Houston;888.5
+Oakland;Phoenix;781.9
+Oakland;Philadelphia;1904.1
+Oakland;San Antonio;572.6
+Oakland;San Diego;1704.7
+Oakland;Dallas;2434.3
+Oakland;San Jose;72.8
+Oakland;Austin;2710.3
+Oakland;Jacksonville;1356.4
+Oakland;Fort Worth;240.3
+Oakland;Columbus;1950.2
+Oakland;Charlotte;150.7
+Oakland;San Francisco;1997.9
+Oakland;Indianapolis;300.7
+Oakland;Seattle;743.5
+Oakland;Denver;445.3
+Oakland;Washington;473.3
+Oakland;Boston;1931.9
+Oakland;El Paso;2552.9
+Oakland;Nashville;224.9
+Oakland;Detroit;2118.3
+Oakland;Oklahoma City;216.6
+Oakland;Portland;828.7
+Oakland;Las Vegas;1633.2
+Oakland;Memphis;424.5
+Oakland;Louisville;2230.8
+Oakland;Baltimore;1293.2
+Oakland;Milwaukee;1764.9
+Oakland;Albuquerque;2770.5
+Oakland;Tucson;2448.1
+Oakland;Fresno;1102.9
+Oakland;Mesa;1048.5
+Oakland;Sacramento;1569.4
+Oakland;Atlanta;790.6
+Oakland;Kansas City;2499.1
+Oakland;Colorado Springs;872.5
+Oakland;Miami;2873.1
+Oakland;Raleigh;2871.2
+Oakland;Omaha;556.6
+Oakland;Long Beach;328.5
+Oakland;Virginia Beach;2110.0
+Oakland;Minneapolis;265.0
+Oakland;Tulsa;2109.1
+Oakland;Arlington;127.6
+Oakland;New Orleans;1938.3
+Minneapolis;New York;1614.4
+Minneapolis;Los Angeles;1681.6
+Minneapolis;Chicago;577.6
+Minneapolis;Houston;1330.0
+Minneapolis;Phoenix;2559.0
+Minneapolis;Philadelphia;588.9
+Minneapolis;San Antonio;2467.1
+Minneapolis;San Diego;231.9
+Minneapolis;Dallas;315.6
+Minneapolis;San Jose;893.8
+Minneapolis;Austin;1185.9
+Minneapolis;Jacksonville;2763.0
+Minneapolis;Fort Worth;194.0
+Minneapolis;Columbus;2564.7
+Minneapolis;Charlotte;941.0
+Minneapolis;San Francisco;1828.0
+Minneapolis;Indianapolis;2587.8
+Minneapolis;Seattle;1696.2
+Minneapolis;Denver;1506.6
+Minneapolis;Washington;1434.4
+Minneapolis;Boston;946.1
+Minneapolis;El Paso;2367.2
+Minneapolis;Nashville;647.5
+Minneapolis;Detroit;280.6
+Minneapolis;Oklahoma City;2879.0
+Minneapolis;Portland;2145.4
+Minneapolis;Las Vegas;769.9
+Minneapolis;Memphis;2288.3
+Minneapolis;Louisville;127.6
+Minneapolis;Baltimore;640.8
+Minneapolis;Milwaukee;2995.7
+Minneapolis;Albuquerque;89.9
+Minneapolis;Tucson;2746.2
+Minneapolis;Fresno;2987.3
+Minneapolis;Mesa;79.2
+Minneapolis;Sacramento;1127.7
+Minneapolis;Atlanta;2063.0
+Minneapolis;Kansas City;469.9
+Minneapolis;Colorado Springs;1997.7
+Minneapolis;Miami;659.3
+Minneapolis;Raleigh;2404.6
+Minneapolis;Omaha;2340.7
+Minneapolis;Long Beach;717.1
+Minneapolis;Virginia Beach;491.8
+Minneapolis;Oakland;348.8
+Minneapolis;Tulsa;2472.8
+Minneapolis;Arlington;1826.0
+Minneapolis;New Orleans;408.9
+Tulsa;New York;1098.7
+Tulsa;Los Angeles;1291.1
+Tulsa;Chicago;224.1
+Tulsa;Houston;982.2
+Tulsa;Phoenix;2021.1
+Tulsa;Philadelphia;729.5
+Tulsa;San Antonio;978.6
+Tulsa;San Diego;2797.3
+Tulsa;Dallas;2789.2
+Tulsa;San Jose;275.0
+Tulsa;Austin;1388.5
+Tulsa;Jacksonville;2294.6
+Tulsa;Fort Worth;1315.4
+Tulsa;Columbus;2901.4
+Tulsa;Charlotte;1062.2
+Tulsa;San Francisco;2807.9
+Tulsa;Indianapolis;284.1
+Tulsa;Seattle;827.3
+Tulsa;Denver;218.8
+Tulsa;Washington;2247.0
+Tulsa;Boston;2336.9
+Tulsa;El Paso;1724.3
+Tulsa;Nashville;2187.7
+Tulsa;Detroit;1732.4
+Tulsa;Oklahoma City;2471.7
+Tulsa;Portland;1920.8
+Tulsa;Las Vegas;465.6
+Tulsa;Memphis;760.0
+Tulsa;Louisville;1556.0
+Tulsa;Baltimore;136.0
+Tulsa;Milwaukee;1051.1
+Tulsa;Albuquerque;2969.1
+Tulsa;Tucson;949.8
+Tulsa;Fresno;1992.4
+Tulsa;Mesa;2214.1
+Tulsa;Sacramento;1235.0
+Tulsa;Atlanta;845.4
+Tulsa;Kansas City;2988.1
+Tulsa;Colorado Springs;1277.2
+Tulsa;Miami;210.5
+Tulsa;Raleigh;2422.3
+Tulsa;Omaha;1292.7
+Tulsa;Long Beach;1067.2
+Tulsa;Virginia Beach;2491.4
+Tulsa;Oakland;1121.0
+Tulsa;Minneapolis;1771.0
+Tulsa;Arlington;520.1
+Tulsa;New Orleans;854.4
+Arlington;New York;2318.6
+Arlington;Los Angeles;1330.3
+Arlington;Chicago;2793.5
+Arlington;Houston;83.7
+Arlington;Phoenix;2346.4
+Arlington;Philadelphia;1489.7
+Arlington;San Antonio;503.7
+Arlington;San Diego;1157.1
+Arlington;Dallas;1257.8
+Arlington;San Jose;2196.6
+Arlington;Austin;1224.9
+Arlington;Jacksonville;804.8
+Arlington;Fort Worth;2917.2
+Arlington;Columbus;209.2
+Arlington;Charlotte;1991.2
+Arlington;San Francisco;1825.8
+Arlington;Indianapolis;2621.0
+Arlington;Seattle;2063.0
+Arlington;Denver;249.7
+Arlington;Washington;1493.0
+Arlington;Boston;2694.8
+Arlington;El Paso;1889.2
+Arlington;Nashville;2700.4
+Arlington;Detroit;2861.6
+Arlington;Oklahoma City;215.8
+Arlington;Portland;2887.6
+Arlington;Las Vegas;2329.0
+Arlington;Memphis;1909.0
+Arlington;Louisville;2148.9
+Arlington;Baltimore;945.8
+Arlington;Milwaukee;647.4
+Arlington;Albuquerque;2584.3
+Arlington;Tucson;459.9
+Arlington;Fresno;2426.7
+Arlington;Mesa;88.2
+Arlington;Sacramento;1368.6
+Arlington;Atlanta;2501.1
+Arlington;Kansas City;1236.3
+Arlington;Colorado Springs;2213.4
+Arlington;Miami;551.9
+Arlington;Raleigh;132.5
+Arlington;Omaha;2917.1
+Arlington;Long Beach;2852.0
+Arlington;Virginia Beach;1695.7
+Arlington;Oakland;2917.0
+Arlington;Minneapolis;732.9
+Arlington;Tulsa;206.2
+Arlington;New Orleans;851.2
+New Orleans;New York;875.0
+New Orleans;Los Angeles;91.7
+New Orleans;Chicago;2411.1
+New Orleans;Houston;1621.1
+New Orleans;Phoenix;2235.5
+New Orleans;Philadelphia;459.1
+New Orleans;San Antonio;599.1
+New Orleans;San Diego;1086.2
+New Orleans;Dallas;1418.4
+New Orleans;San Jose;1426.9
+New Orleans;Austin;827.0
+New Orleans;Jacksonville;1347.0
+New Orleans;Fort Worth;325.8
+New Orleans;Columbus;1173.6
+New Orleans;Charlotte;1431.2
+New Orleans;San Francisco;2505.9
+New Orleans;Indianapolis;2315.7
+New Orleans;Seattle;1911.4
+New Orleans;Denver;2522.8
+New Orleans;Washington;2664.8
+New Orleans;Boston;1452.3
+New Orleans;El Paso;2725.6
+New Orleans;Nashville;1536.1
+New Orleans;Detroit;1791.0
+New Orleans;Oklahoma City;2924.4
+New Orleans;Portland;2007.5
+New Orleans;Las Vegas;1265.2
+New Orleans;Memphis;1866.7
+New Orleans;Louisville;2727.9
+New Orleans;Baltimore;848.6
+New Orleans;Milwaukee;2632.2
+New Orleans;Albuquerque;1129.8
+New Orleans;Tucson;1635.5
+New Orleans;Fresno;1628.2
+New Orleans;Mesa;1258.4
+New Orleans;Sacramento;412.9
+New Orleans;Atlanta;2496.2
+New Orleans;Kansas City;1854.2
+New Orleans;Colorado Springs;1395.5
+New Orleans;Miami;2597.1
+New Orleans;Raleigh;581.6
+New Orleans;Omaha;2905.0
+New Orleans;Long Beach;2213.0
+New Orleans;Virginia Beach;1981.0
+New Orleans;Oakland;2210.7
+New Orleans;Minneapolis;1469.7
+New Orleans;Tulsa;2763.6
+New Orleans;Arlington;579.6
